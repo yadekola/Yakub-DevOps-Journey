@@ -1,0 +1,16 @@
+# Copy to hosts.ini (gitignored if it contains anything sensitive).
+# Terraform can generate this for you - see Lab 5 step 1.
+
+[web]
+web01 ansible_host=10.0.1.10
+
+[app]
+app01 ansible_host=10.0.11.10
+
+[monitoring]
+mon01 ansible_host=10.0.1.20
+
+[all:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/yaco-devops-key.pem
+ansible_python_interpreter=/usr/bin/python3

@@ -1,0 +1,10 @@
+# Lab 7 - MySQL image with the schema pre-loaded.
+FROM mysql:8.0
+
+# Anything in this directory runs automatically the FIRST time the data volume is empty.
+COPY db_backup.sql /docker-entrypoint-initdb.d/
+
+# NOTE: no password here. It is supplied at runtime:
+#   docker run -e MYSQL_ROOT_PASSWORD="$DB_PASS" ...
+# or from the compose file via the .env file, which is gitignored.
+EXPOSE 3306

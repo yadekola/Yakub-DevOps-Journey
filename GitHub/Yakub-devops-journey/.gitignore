@@ -1,0 +1,43 @@
+# --- Secrets: never commit these ---
+*.pem
+*.key
+*.p12
+.env
+.env.*
+credentials
+aws_credentials
+kubeconfig
+*.kubeconfig
+secrets.yaml
+secrets.yml
+terraform.tfvars
+*.auto.tfvars
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+
+# --- Build output ---
+target/
+build/
+dist/
+*.war
+*.jar
+
+# --- Ansible ---
+*.retry
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
+.venv/

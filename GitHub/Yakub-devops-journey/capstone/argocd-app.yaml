@@ -1,0 +1,22 @@
+# Register the Helm chart with Argo CD. Apply once:
+#   kubectl apply -f argocd-app.yaml -n argocd
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: vprofile
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/YOUR_USERNAME/yaco-devops-journey.git
+    targetRevision: main
+    path: capstone/helm/vprofile
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: vprofile
+  syncPolicy:
+    automated:
+      prune: true        # delete resources removed from Git
+      selfHeal: true     # revert manual kubectl changes - this is what makes it GitOps
+    syncOptions:
+      - CreateNamespace=true

@@ -1,0 +1,4755 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Yacoub DevOps 60 Day Plan//Sep-Oct 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Yacoub DevOps Plan (Sep-Oct 2026)
+X-WR-TIMEZONE:Africa/Lagos
+BEGIN:VTIMEZONE
+TZID:Africa/Lagos
+X-LIC-LOCATION:Africa/Lagos
+BEGIN:STANDARD
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0100
+TZNAME:WAT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2ce6949b520230317fdfaeb4c85138a8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T090000
+DTEND;TZID=Africa/Lagos:20260901T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc3ba5a8287ec00fba19bdb8aa815de@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T130000
+DTEND;TZID=Africa/Lagos:20260901T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a3010f35bd0b6b8c73f28a2eb565c701@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T140000
+DTEND;TZID=Africa/Lagos:20260901T150000
+SUMMARY:DevOps Study - Udemy (light): AWS storage & load balancing (Lectu
+ res 119–122)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n119. EBS Snapshots (15min)\n120. ELB Introduct
+ ion (6min)\n121. ELB Hands On Part 1 (10min)\n122. ELB Hands On Part 2 (
+ 19min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:af6ce7cf4adf59ac390981c8e190f012@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T150000
+DTEND;TZID=Africa/Lagos:20260901T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Attach and snapshot an EBS volume on a t3.micro\; put two EC2
+ s behind a Classic/Application Load Balancer and prove traffic alternate
+ s.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0b618cb085a0cb2e4e972325b5c0ee3e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T160000
+DTEND;TZID=Africa/Lagos:20260901T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:344cc53be7caf60a8b494b390009cfee@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260901T163000
+DTEND;TZID=Africa/Lagos:20260901T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0840076d27f4ae3ab273790693529630@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T090000
+DTEND;TZID=Africa/Lagos:20260902T103000
+SUMMARY:DevOps Study - Udemy: CloudWatch\, EFS\, Autoscaling\, S3 (Lectur
+ es 123–127)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n123. Cloudwatch Introduction (5min)\n124. Cloudwatch Hands 
+ On (19min)\n125. EFS (18min)\n126. Autoscaling Group Introduction (4min)
+ \n127. Autoscaling Group Hands On (25min)\n128. S3 Introduction (22min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee06691f1e7d8f58645ed64dcd41964@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T103000
+DTEND;TZID=Africa/Lagos:20260902T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2ad072a84d14e011599b3b0ea738849f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T104500
+DTEND;TZID=Africa/Lagos:20260902T121500
+SUMMARY:DevOps Study - Udemy: CloudWatch\, EFS\, Autoscaling\, S3 (Lectur
+ es 128)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n123. Cloudwatch Int
+ roduction (5min)\n124. Cloudwatch Hands On (19min)\n125. EFS (18min)\n12
+ 6. Autoscaling Group Introduction (4min)\n127. Autoscaling Group Hands O
+ n (25min)\n128. S3 Introduction (22min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9ffd49b27601aa27e392b4c621d26dfc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T121500
+DTEND;TZID=Africa/Lagos:20260902T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c9310d9a9e210fafec7516def629bb93@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T131500
+DTEND;TZID=Africa/Lagos:20260902T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Build a CloudWatch alarm on CPU\, mount an EFS share across t
+ wo instances\, create a launch template + ASG (min 1 / max 2)\, create y
+ our first S3 bucket.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9fcbea199be0152a481d4013eb3eeade@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T151500
+DTEND;TZID=Africa/Lagos:20260902T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cdf15451d68d42e7ce20b1bc255f4942@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T153000
+DTEND;TZID=Africa/Lagos:20260902T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cd91e79e45a3f5da8102075a63b3fca6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260902T163000
+DTEND;TZID=Africa/Lagos:20260902T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2927c77c6710e5218194dcf3ffc2e6fa@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T090000
+DTEND;TZID=Africa/Lagos:20260903T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8dfdb6c1bcf1209ebd2b6ee2bc3dbafd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T130000
+DTEND;TZID=Africa/Lagos:20260903T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e4adf47ef041557eb1e1015581224337@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T140000
+DTEND;TZID=Africa/Lagos:20260903T150000
+SUMMARY:DevOps Study - Udemy (light): S3 static hosting & RDS (Lectures 1
+ 29–131)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n129. S3 Website Hosting (12min)\n130. More in 
+ S3 (11min)\n131. RDS (26min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:17ce7a3673f5624eb415afd0c77f7419@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T150000
+DTEND;TZID=Africa/Lagos:20260903T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Host a one-page site on S3\, then launch a free-tier db.t3.mi
+ cro MySQL RDS instance and connect to it from an EC2 over a security gro
+ up rule.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1f4d44e7d9e1373ffe7e8706ab73f45d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T160000
+DTEND;TZID=Africa/Lagos:20260903T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2a6fdf47a1f6b849a3f21bafeb40fb1d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260903T163000
+DTEND;TZID=Africa/Lagos:20260903T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:44971bd648c5b724b2ce0fa7e1030082@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T090000
+DTEND;TZID=Africa/Lagos:20260904T103000
+SUMMARY:DevOps Study - Udemy: Lift & Shift project setup (Lectures 132–13
+ 5)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n132. Introduction (11min)\n133. Security Group & Keypairs (
+ 10min)\n134. EC2 Instances (19min)\n135. DNS Route 53 (7min)\n136. Build
+  and Deploy Artifacts (16min)\n137. Load Balancer & DNS (11min)\n138. Au
+ toscaling Group (12min)\n139. Validate & Summarize (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:15b9018c57b2d9d126f01d2ab0bc46c1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T103000
+DTEND;TZID=Africa/Lagos:20260904T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6810961fbdbd80b3508d126e7a5cf136@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T104500
+DTEND;TZID=Africa/Lagos:20260904T121500
+SUMMARY:DevOps Study - Udemy: Lift & Shift project setup (Lectures 136–13
+ 9)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n132. Introduction (
+ 11min)\n133. Security Group & Keypairs (10min)\n134. EC2 Instances (19mi
+ n)\n135. DNS Route 53 (7min)\n136. Build and Deploy Artifacts (16min)\n1
+ 37. Load Balancer & DNS (11min)\n138. Autoscaling Group (12min)\n139. Va
+ lidate & Summarize (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8bbd6b7eb67bb0e979340d4910e6fbd2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T121500
+DTEND;TZID=Africa/Lagos:20260904T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:96e8cb47ad8a77164ecd012d9cbc4cac@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T131500
+DTEND;TZID=Africa/Lagos:20260904T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Walk the whole Section 14 stack once\, following the lectures
+  exactly. Take notes on every security group rule - you will rebuild it 
+ unaided tomorrow.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3ce4169d8e419ec0b9ba25b4f8caddbe@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T151500
+DTEND;TZID=Africa/Lagos:20260904T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:53c98ae54e8bb8d039528a1f315f81e2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T153000
+DTEND;TZID=Africa/Lagos:20260904T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6f6958122428b011f7a3976777653fe4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260904T163000
+DTEND;TZID=Africa/Lagos:20260904T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:586693f7901094d3512d1f5d0b3c2e99@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T090000
+DTEND;TZID=Africa/Lagos:20260905T110000
+SUMMARY:LAB 1: Lift & Shift: multi-tier vProfile stack on AWS EC2 - build
+  phase
+DESCRIPTION:Rebuild the Section 14 architecture from scratch WITHOUT repl
+ aying the videos: MySQL\, Memcached and RabbitMQ on private EC2s\, Tomca
+ t app EC2\, Nginx web EC2\, an Application Load Balancer in front\, a Ro
+ ute 53 record\, and an Autoscaling Group for the app tier. Everything fr
+ ee-tier sized.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e8fd0e10ab57d5b8334b725d07876ede@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T110000
+DTEND;TZID=Africa/Lagos:20260905T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6767da07e9fb632533aed35c9adbdb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T111500
+DTEND;TZID=Africa/Lagos:20260905T130000
+SUMMARY:LAB 1: Lift & Shift: multi-tier vProfile stack on AWS EC2 - conti
+ nue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fcbccf055cf96d1573a70fea0e744cfc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T130000
+DTEND;TZID=Africa/Lagos:20260905T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5602ac1cb6741e0eb3b047f181e35bbc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T140000
+DTEND;TZID=Africa/Lagos:20260905T154500
+SUMMARY:LAB 1: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1c4c98752550771ebd3c0ae635e434f9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T154500
+DTEND;TZID=Africa/Lagos:20260905T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9f98bedec2342d99d343b47f6d97f8c1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260905T163000
+DTEND;TZID=Africa/Lagos:20260905T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7e4364cdd963de74fe16d6b4d4b4a5d3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260906T100000
+DTEND;TZID=Africa/Lagos:20260906T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 1. Draw the lift-and-shift architectu
+ re by hand\, photograph or redraw it digitally\, and record a 5-minute w
+ alkthrough.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:946accbd256701078672ee189d47137a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260906T120000
+DTEND;TZID=Africa/Lagos:20260906T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a8d1d23ea994a4e4dcaf0ddaf30b486e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260906T130000
+DTEND;TZID=Africa/Lagos:20260906T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c6e058feac1bce2570fc11e7226b749c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260906T140000
+DTEND;TZID=Africa/Lagos:20260906T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3dd3e2cc46b7bfe29614789bc5b47257@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260906T150000
+DTEND;TZID=Africa/Lagos:20260906T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a38c01ceb2b963811e94fa1833df9ad3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T090000
+DTEND;TZID=Africa/Lagos:20260907T103000
+SUMMARY:DevOps Study - Udemy: Re-architecting on PAAS/SAAS (Lectures 140–
+ 146)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n140. Introduction (13min)\n141. Security Group And Keypairs
+  (4min)\n142. RDS (11min)\n143. Elastic Cache (5min)\n144. Amazon MQ (3m
+ in)\n145. DB Initialization (7min)\n146. Beanstalk (19min)\n147. Update 
+ on Security Group & ELB (2min)\n148. Build & Deploy Artifact (13min)\n14
+ 9. Cloud front (9min)\n150. Validate and Summarize (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5d09fa0f49eca7b61df7bcde6707be29@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T103000
+DTEND;TZID=Africa/Lagos:20260907T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ecbca692ec6144118094e916477ff99d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T104500
+DTEND;TZID=Africa/Lagos:20260907T121500
+SUMMARY:DevOps Study - Udemy: Re-architecting on PAAS/SAAS (Lectures 147–
+ 150)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n140. Introduction (
+ 13min)\n141. Security Group And Keypairs (4min)\n142. RDS (11min)\n143. 
+ Elastic Cache (5min)\n144. Amazon MQ (3min)\n145. DB Initialization (7mi
+ n)\n146. Beanstalk (19min)\n147. Update on Security Group & ELB (2min)\n
+ 148. Build & Deploy Artifact (13min)\n149. Cloud front (9min)\n150. Vali
+ date and Summarize (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1be0015128c14421e067aea8cac08834@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T121500
+DTEND;TZID=Africa/Lagos:20260907T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7abb6f7a157fe89ee86b10f3f41da0b5@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T131500
+DTEND;TZID=Africa/Lagos:20260907T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Deploy the app to Elastic Beanstalk backed by RDS\, ElastiCac
+ he and Amazon MQ. Front it with CloudFront. DESTROY EVERYTHING before yo
+ u close the laptop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a6e604e5c730c741941e70fb066244@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T151500
+DTEND;TZID=Africa/Lagos:20260907T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dcbf6b250a544b6446094bdfb0600edf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T153000
+DTEND;TZID=Africa/Lagos:20260907T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c8346cb834ddfef58fe122111709dab1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260907T163000
+DTEND;TZID=Africa/Lagos:20260907T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:347bcd9276885d19e720aa5e9efdda8e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T090000
+DTEND;TZID=Africa/Lagos:20260908T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c176ea9b09b012cd87d8bf6e68d677be@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T130000
+DTEND;TZID=Africa/Lagos:20260908T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:263af3f18eb0024ad6e7c971ce9fee7b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T140000
+DTEND;TZID=Africa/Lagos:20260908T150000
+SUMMARY:DevOps Study - Udemy (light): Build tools - Maven (Lectures 151–1
+ 53)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n151. Introduction (9min)\n152. Maven Hands-on 
+ (24min)\n153. Maven\, NodeJS & AI (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:409d902c9d340252ea00fc8fb0b06ac3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T150000
+DTEND;TZID=Africa/Lagos:20260908T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Clone the vProfile source\, run `mvn clean install`\, find th
+ e produced .war in target/ and explain what each Maven lifecycle phase d
+ id.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4b52e17fef7090a56a859898a097ca1b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T160000
+DTEND;TZID=Africa/Lagos:20260908T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f7169a5c52c22d356477e6731b9a3434@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260908T163000
+DTEND;TZID=Africa/Lagos:20260908T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:815173bd5a2cbc8185c317f0194f56ee@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T090000
+DTEND;TZID=Africa/Lagos:20260909T103000
+SUMMARY:DevOps Study - Udemy: Jenkins install & first jobs (Lectures 154–
+ 158)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n154. Introduction (6min)\n155. Installation (13min)\n156. F
+ reestyle Vs Pipeline As A Code (2min)\n157. Installing tools in Jenkins 
+ (7min)\n158. First Job (8min)\n159. First Build Job (11min)\n160. Agents
+  (13min)\n161. Plugins\, Versioning & more (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3abfd289c51f465f5a710360dc7a1131@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T103000
+DTEND;TZID=Africa/Lagos:20260909T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f062cbcd2434a4b250ee68f0cbb52a24@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T104500
+DTEND;TZID=Africa/Lagos:20260909T121500
+SUMMARY:DevOps Study - Udemy: Jenkins install & first jobs (Lectures 159–
+ 161)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n154. Introduction (
+ 6min)\n155. Installation (13min)\n156. Freestyle Vs Pipeline As A Code (
+ 2min)\n157. Installing tools in Jenkins (7min)\n158. First Job (8min)\n1
+ 59. First Build Job (11min)\n160. Agents (13min)\n161. Plugins\, Version
+ ing & more (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a347e498f1db7a0e16e0a5462d98fc99@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T121500
+DTEND;TZID=Africa/Lagos:20260909T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:67973dbc1c583e8270d81c0d93c2de19@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T131500
+DTEND;TZID=Africa/Lagos:20260909T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Install Jenkins on an Ubuntu EC2\, add JDK + Maven as global 
+ tools\, create a freestyle job that builds the vProfile war\, then add a
+  build agent.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:94c402ac58a24dc441ad66c0357f4e56@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T151500
+DTEND;TZID=Africa/Lagos:20260909T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:85c3b5d81fba35d969b37a9ff0deccb7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T153000
+DTEND;TZID=Africa/Lagos:20260909T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c15c777209a5bfd4a6d483117c6344f3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260909T163000
+DTEND;TZID=Africa/Lagos:20260909T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:49b4e9fa257defefbc7349785ed18d17@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T090000
+DTEND;TZID=Africa/Lagos:20260910T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9a76cf098048d0984ecf82ed1d2d9126@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T130000
+DTEND;TZID=Africa/Lagos:20260910T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:54e675b40594780187d1d963359dd7c3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T140000
+DTEND;TZID=Africa/Lagos:20260910T150000
+SUMMARY:DevOps Study - Udemy (light): CI flow\, Nexus & SonarQube setup (
+ Lectures 162–166)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n162. Disk Space Issue (3min)\n163. Flow of Con
+ tinuous Integration Pipeline (5min)\n164. Steps for Continuous Integrati
+ on Pipeline (2min)\n165. Jenkins\, Nexus & Sonarqube Setup (13min)\n166.
+  Plugins for CI (1min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:47a21c239501075301a1fb9a65cef285@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T150000
+DTEND;TZID=Africa/Lagos:20260910T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Stand up Nexus and SonarQube servers. Keep them t3.small or s
+ maller and STOP them when you finish.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e1b3bd570373860aa019e871b5be6d33@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T160000
+DTEND;TZID=Africa/Lagos:20260910T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b0facd42fb9f7e55f9eac18d4ae07b45@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260910T163000
+DTEND;TZID=Africa/Lagos:20260910T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4879a1e323593498226bd3cbe67ce7c7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T090000
+DTEND;TZID=Africa/Lagos:20260911T103000
+SUMMARY:DevOps Study - Udemy: Pipeline as code\, quality gates\, Slack (L
+ ectures 167–169)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n167. Pipeline As A Code Introduction (18min)\n168. Code Ana
+ lysis (7min)\n169. Code Analysis Demonstration (14min)\n170. Quality Gat
+ es (7min)\n171. Software Repositories Intro (Nexus) (5min)\n172. Nexus P
+ AAC Demo (9min)\n173. Notification\, Slack (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9be5a2a34680f6c73bc31c4c62e0410d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T103000
+DTEND;TZID=Africa/Lagos:20260911T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7476b0e3ee0f2590e015685a9769dfd7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T104500
+DTEND;TZID=Africa/Lagos:20260911T121500
+SUMMARY:DevOps Study - Udemy: Pipeline as code\, quality gates\, Slack (L
+ ectures 170–173)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n167. Pipeline As A 
+ Code Introduction (18min)\n168. Code Analysis (7min)\n169. Code Analysis
+  Demonstration (14min)\n170. Quality Gates (7min)\n171. Software Reposit
+ ories Intro (Nexus) (5min)\n172. Nexus PAAC Demo (9min)\n173. Notificati
+ on\, Slack (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:32a34a62c59753553a8584d1718e1337@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T121500
+DTEND;TZID=Africa/Lagos:20260911T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2281a7f031fd74932a82421049e52f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T131500
+DTEND;TZID=Africa/Lagos:20260911T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Write your first Jenkinsfile: Build -> Test -> Code Analysis 
+ -> Quality Gate -> Upload artifact to Nexus -> Slack notification.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3b072525431ba05dda6688ef044dbff3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T151500
+DTEND;TZID=Africa/Lagos:20260911T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7569e292dd6ff1a39ca8819dc770a325@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T153000
+DTEND;TZID=Africa/Lagos:20260911T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0fea90e93cb715760aa0c99a3d61aaf8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260911T163000
+DTEND;TZID=Africa/Lagos:20260911T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:186895a66cce94928cba74936514f452@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T090000
+DTEND;TZID=Africa/Lagos:20260912T110000
+SUMMARY:LAB 2: Jenkins Continuous Integration pipeline with quality gates
+  - build phase
+DESCRIPTION:Build a complete CI pipeline as code for the vProfile app: ch
+ eckout\, Maven build\, unit tests\, Checkstyle\, SonarQube analysis with
+  a quality gate that can FAIL the build\, artifact upload to Nexus\, and
+  a Slack notification on both success and failure.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4dd41d8c5a6893832227c5ce6070ea@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T110000
+DTEND;TZID=Africa/Lagos:20260912T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:127f2df2595e86b5c082921797a2a491@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T111500
+DTEND;TZID=Africa/Lagos:20260912T130000
+SUMMARY:LAB 2: Jenkins Continuous Integration pipeline with quality gates
+  - continue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1237158940107d9231271a6ba76157@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T130000
+DTEND;TZID=Africa/Lagos:20260912T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:447486e2f014389905240ceb92499f9d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T140000
+DTEND;TZID=Africa/Lagos:20260912T154500
+SUMMARY:LAB 2: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f825a95d6467693649d34428e1864dba@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T154500
+DTEND;TZID=Africa/Lagos:20260912T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:614d98a7e75efc6730be60baa197a3c3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260912T163000
+DTEND;TZID=Africa/Lagos:20260912T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:23fa6101fff3cb350ce4b95aff3d2cbb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260913T100000
+DTEND;TZID=Africa/Lagos:20260913T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 2. Record a screen capture of the pip
+ eline running green\, and a second one of it failing the quality gate on
+  purpose.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:092e87f4fcf9fa4dd40eb877890b6e72@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260913T120000
+DTEND;TZID=Africa/Lagos:20260913T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b35a9ba61e03b8158482d647a69a6d4f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260913T130000
+DTEND;TZID=Africa/Lagos:20260913T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5007d62ab77187c66c345e261b8f5bbd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260913T140000
+DTEND;TZID=Africa/Lagos:20260913T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1c0c21c53cb30526ad62a9ffaa6d8a43@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260913T150000
+DTEND;TZID=Africa/Lagos:20260913T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1c12ababd290d578bda68fac5a3fa725@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T090000
+DTEND;TZID=Africa/Lagos:20260914T103000
+SUMMARY:DevOps Study - Udemy: Jenkins CI/CD to Docker & ECS (Lectures 174
+ –180)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n174. CI for Docker | Intro (2min)\n175. Docker PAAC Prereqs
+  info (9min)\n176. Docker PAAC Demo (15min)\n177. Docker CICD Intro (4mi
+ n)\n178. Docker CICD Code (2min)\n179. AWS ECS Setup (13min)\n180. Docke
+ r CICD Demonstration (5min)\n181. Cleanup (2min)\n182. Build Triggers In
+ tro (14min)\n183. Build Triggers Demo (18min)\n184. Authentication & Aut
+ horization (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5de095271003494b53d636ef2bb94e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T103000
+DTEND;TZID=Africa/Lagos:20260914T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:098536f9540ed9a4be809ca342debf50@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T104500
+DTEND;TZID=Africa/Lagos:20260914T121500
+SUMMARY:DevOps Study - Udemy: Jenkins CI/CD to Docker & ECS (Lectures 181
+ –184)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n174. CI for Docker 
+ | Intro (2min)\n175. Docker PAAC Prereqs info (9min)\n176. Docker PAAC D
+ emo (15min)\n177. Docker CICD Intro (4min)\n178. Docker CICD Code (2min)
+ \n179. AWS ECS Setup (13min)\n180. Docker CICD Demonstration (5min)\n181
+ . Cleanup (2min)\n182. Build Triggers Intro (14min)\n183. Build Triggers
+  Demo (18min)\n184. Authentication & Authorization (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:489581a01d8fbcf24f13f5c7ba21edf9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T121500
+DTEND;TZID=Africa/Lagos:20260914T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5adfa5c99f3a510a75c0d93459ed296e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T131500
+DTEND;TZID=Africa/Lagos:20260914T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Extend the Jenkinsfile to build a Docker image and push it\, 
+ then deploy to ECS. Configure a webhook build trigger and lock the insta
+ nce down with matrix authorisation.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4300bf81ed761898b1c1df9de0b2ebf4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T151500
+DTEND;TZID=Africa/Lagos:20260914T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:52960d86b62f7891f62644017ca4eb56@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T153000
+DTEND;TZID=Africa/Lagos:20260914T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:916dbea3f4b3239bf6bd7215c72fd3f2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260914T163000
+DTEND;TZID=Africa/Lagos:20260914T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c5619bc021fc3706279175bff53a234b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T090000
+DTEND;TZID=Africa/Lagos:20260915T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:143cac109b5c7711d7094112fcd1334b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T130000
+DTEND;TZID=Africa/Lagos:20260915T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fa057464c1a2c4636345ed2a64208c57@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T140000
+DTEND;TZID=Africa/Lagos:20260915T150000
+SUMMARY:DevOps Study - Udemy (light): GitHub Actions quickstart (Lectures
+  185–188)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n185. Introduction (5min)\n186. Quickstart Part
+ 1 (16min)\n187. Quickstart Part2 (9min)\n188. Triggers and Inputs (13min
+ )
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1c08c1b8435d9cf41e79dc4a9de9eee2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T150000
+DTEND;TZID=Africa/Lagos:20260915T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Write .github/workflows/ci.yml that runs on push to a feature
+  branch and on pull_request\, and prove both triggers fire.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0a2150be10446924782ff4309cf162cc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T160000
+DTEND;TZID=Africa/Lagos:20260915T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3bf538d47b57bbc92d9745b124b917@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260915T163000
+DTEND;TZID=Africa/Lagos:20260915T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c3b5fb56a2dd4653c04104fcd44f98c7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T090000
+DTEND;TZID=Africa/Lagos:20260916T103000
+SUMMARY:DevOps Study - Udemy: Actions artifacts/security + GitLab start (
+ Lectures 189–192)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n189. Artifacts\, Conditions & Repo Permissions (8min)\n190.
+  Security Scan (7min)\n191. Secrets & Docker (7min)\n192. Build & Publis
+ h Job (13min)\n193. Introduction (5min)\n194. Initial Setup (13min)\n195
+ . First Pipeline (10min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e5e9b501eefe07ab47130bdbe7871ce2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T103000
+DTEND;TZID=Africa/Lagos:20260916T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d01d29a3115fd719a5fb8d04536c1130@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T104500
+DTEND;TZID=Africa/Lagos:20260916T121500
+SUMMARY:DevOps Study - Udemy: Actions artifacts/security + GitLab start (
+ Lectures 193–195)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n189. Artifacts\, Co
+ nditions & Repo Permissions (8min)\n190. Security Scan (7min)\n191. Secr
+ ets & Docker (7min)\n192. Build & Publish Job (13min)\n193. Introduction
+  (5min)\n194. Initial Setup (13min)\n195. First Pipeline (10min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:70e17931132eac3c033ec3fe6334f3f6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T121500
+DTEND;TZID=Africa/Lagos:20260916T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:37d74230883e6cdfc7fb2535da074afe@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T131500
+DTEND;TZID=Africa/Lagos:20260916T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Add an artifact upload and a security scan job to the Actions
+  workflow. Then create a GitLab account and run your first .gitlab-ci.ym
+ l.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:19ee0cc80677f2e203a697f0b18090aa@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T151500
+DTEND;TZID=Africa/Lagos:20260916T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0ac8e61d7e827dad29f92c11a9f69aa0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T153000
+DTEND;TZID=Africa/Lagos:20260916T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:481629de871fa5d76585f323b81a102b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260916T163000
+DTEND;TZID=Africa/Lagos:20260916T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0cd2f4852a34ac7cca1a45480ac2f3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T090000
+DTEND;TZID=Africa/Lagos:20260917T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f60deb906751f0172d322d252efd054c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T130000
+DTEND;TZID=Africa/Lagos:20260917T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f491d6503d754785c0dfef3984bd5ef6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T140000
+DTEND;TZID=Africa/Lagos:20260917T150000
+SUMMARY:DevOps Study - Udemy (light): GitLab variables\, rules\, Docker (
+ Lectures 196–199)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n196. Variables & More (10min)\n197. Triggers &
+  Rules (12min)\n198. Security & Artifacts (15min)\n199. Build And Publis
+ h Docker (11min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9023622c5e4745c35007da30eb2d6519@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T150000
+DTEND;TZID=Africa/Lagos:20260917T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Move a hard-coded value into a masked GitLab CI/CD variable\,
+  and add a rule so the deploy stage only runs on the main branch.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a037e6f3e7bc5f5563cb576c9a767b80@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T160000
+DTEND;TZID=Africa/Lagos:20260917T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ee99b2090a78446b118cc2a0f1ba07ed@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260917T163000
+DTEND;TZID=Africa/Lagos:20260917T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:63b90e081df6f18d3f4f58eb223badca@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T090000
+DTEND;TZID=Africa/Lagos:20260918T103000
+SUMMARY:DevOps Study - Udemy: Python foundations for DevOps (Lectures 200
+ –203)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n200. Introduction (10min)\n201. Python on Linux\, Versions 
+ & Indentation (10min)\n202. Quotes and Comments (4min)\n203. Variables (
+ 15min)\n204. Print Format (5min)\n205. Slicing (16min)\n206. Operators (
+ 17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7023fd14a1ad6fbfb612e26542a85baa@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T103000
+DTEND;TZID=Africa/Lagos:20260918T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5669e19e021a108b56fa1f71b9270ac3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T104500
+DTEND;TZID=Africa/Lagos:20260918T121500
+SUMMARY:DevOps Study - Udemy: Python foundations for DevOps (Lectures 204
+ –206)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n200. Introduction (
+ 10min)\n201. Python on Linux\, Versions & Indentation (10min)\n202. Quot
+ es and Comments (4min)\n203. Variables (15min)\n204. Print Format (5min)
+ \n205. Slicing (16min)\n206. Operators (17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3810ed291ac3c2590760290c1d69f54f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T121500
+DTEND;TZID=Africa/Lagos:20260918T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bab02e573d2912a8a791aafec4f359f6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T131500
+DTEND;TZID=Africa/Lagos:20260918T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Write and run five small scripts covering variables\, string 
+ slicing\, operators and conditions. Commit them to labs/python/.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:efae4f31bd6c3adb8255341a5ae50e68@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T151500
+DTEND;TZID=Africa/Lagos:20260918T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5932e624fcffa5d34539c904656de88f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T153000
+DTEND;TZID=Africa/Lagos:20260918T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4a44dd55987687d21de7af3853f56e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260918T163000
+DTEND;TZID=Africa/Lagos:20260918T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2e2ca036da2aea8839bdad9f987761d7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T090000
+DTEND;TZID=Africa/Lagos:20260919T110000
+SUMMARY:LAB 3: GitHub Actions CI/CD with security scanning and secrets - 
+ build phase
+DESCRIPTION:Port the Jenkins pipeline to GitHub Actions\, then reproduce 
+ the core of it a third time in GitLab CI. Build the app\, scan it\, buil
+ d and publish a Docker image\, and gate deployment behind a branch rule.
+  Write a short comparison of the three tools.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:144f36c52b1e5fd31a9a34a47ae79fc8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T110000
+DTEND;TZID=Africa/Lagos:20260919T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3f109d94493b910296e53d1cabc530a2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T111500
+DTEND;TZID=Africa/Lagos:20260919T130000
+SUMMARY:LAB 3: GitHub Actions CI/CD with security scanning and secrets - 
+ continue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5f06a47fa5e9db01d2827da3294a606c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T130000
+DTEND;TZID=Africa/Lagos:20260919T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1946b663cc9695d03ffc464a72299579@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T140000
+DTEND;TZID=Africa/Lagos:20260919T154500
+SUMMARY:LAB 3: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8d0be46d29275d2a58eb4d5130662e8e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T154500
+DTEND;TZID=Africa/Lagos:20260919T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8168ac37085d1fb5b741cf29870c5799@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260919T163000
+DTEND;TZID=Africa/Lagos:20260919T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e23109b110116dd95a18ec5d897cf1a8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260920T100000
+DTEND;TZID=Africa/Lagos:20260920T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 3. Write the Jenkins vs GitHub Action
+ s vs GitLab comparison properly - this is a common interview question.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2aec60e5cf0611c6445b3b4f9f860b44@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260920T120000
+DTEND;TZID=Africa/Lagos:20260920T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6df17907020e340cb2060a9b67556dc1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260920T130000
+DTEND;TZID=Africa/Lagos:20260920T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:98e15f6a05539e996f81e964c2aec21a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260920T140000
+DTEND;TZID=Africa/Lagos:20260920T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bf9f222221aea89760e1d7ae41f61a63@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260920T150000
+DTEND;TZID=Africa/Lagos:20260920T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:af2d448a48683f4661f8578d07565afb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T090000
+DTEND;TZID=Africa/Lagos:20260921T103000
+SUMMARY:DevOps Study - Udemy: Python control flow\, functions\, modules (
+ Lectures 207–210)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n207. Conditions (15min)\n208. Loops (14min)\n209. Break & C
+ ontinue (12min)\n210. Built-in Functions or Methods (17min)\n211. Functi
+ ons part-1 (17min)\n212. Functions part-2 (11min)\n213. Modules (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a564c1b7915239da64694f3129e397d3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T103000
+DTEND;TZID=Africa/Lagos:20260921T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:95371de4bd1b137c887141af95c3ae52@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T104500
+DTEND;TZID=Africa/Lagos:20260921T121500
+SUMMARY:DevOps Study - Udemy: Python control flow\, functions\, modules (
+ Lectures 211–213)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n207. Conditions (15
+ min)\n208. Loops (14min)\n209. Break & Continue (12min)\n210. Built-in F
+ unctions or Methods (17min)\n211. Functions part-1 (17min)\n212. Functio
+ ns part-2 (11min)\n213. Modules (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:355ea13f0d390055477eb54688575276@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T121500
+DTEND;TZID=Africa/Lagos:20260921T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:733ed71457bec63b86aed8f0f78fad19@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T131500
+DTEND;TZID=Africa/Lagos:20260921T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Refactor yesterday's five scripts into one module with functi
+ ons. No copy-paste duplication allowed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:94b051211c8a398e7babccfb061b8b00@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T151500
+DTEND;TZID=Africa/Lagos:20260921T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4ecdf421fbfe52f34c90aebed7aee261@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T153000
+DTEND;TZID=Africa/Lagos:20260921T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ae232360ab940982ee3cb51f307410d3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260921T163000
+DTEND;TZID=Africa/Lagos:20260921T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:51b276cf0235f346fd72e122f3a7b7b4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T090000
+DTEND;TZID=Africa/Lagos:20260922T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:85760ff0c5f82ffd0ebb620f2861bd63@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T130000
+DTEND;TZID=Africa/Lagos:20260922T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9e9cd096227b4fe631ba7ab353b1af@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T140000
+DTEND;TZID=Africa/Lagos:20260922T150000
+SUMMARY:DevOps Study - Udemy (light): OS tasks & Python Fabric (Lectures 
+ 214–215)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n214. OS Tasks (23min)\n215. Python Fabric (32m
+ in)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4b9fd3efe4c819c741378d6643243fa0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T150000
+DTEND;TZID=Africa/Lagos:20260922T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Write a script that reads /var/log\, filters error lines and 
+ writes a summary file. Then use Fabric to run `uptime` on a remote EC2.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:11d60157299cfad76bebee3a7d33e52a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T160000
+DTEND;TZID=Africa/Lagos:20260922T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:69bfee687e3c3cdabe8a95dc5f9f0359@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260922T163000
+DTEND;TZID=Africa/Lagos:20260922T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cb19c50068c775986348ea3abdd78970@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T090000
+DTEND;TZID=Africa/Lagos:20260923T103000
+SUMMARY:DevOps Study - Udemy: Boto3\, AI-assisted automation\, Terraform 
+ basics (Lectures 216–219)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n216. Exception Handling (10min)\n217. Cloud Interaction wit
+ h Boto3 (11min)\n218. AI for Cloud Automation (17min)\n219. Copilot AI f
+ or Cloud Automation (14min)\n220. Python Scripts (0min)\n221. Introducti
+ on (7min)\n222. Basics of Terraform (16min)\n223. Code Structure (17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:295b5f6e45739d544f548037b287949d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T103000
+DTEND;TZID=Africa/Lagos:20260923T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:304e3cacb5086615320961f863d89299@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T104500
+DTEND;TZID=Africa/Lagos:20260923T121500
+SUMMARY:DevOps Study - Udemy: Boto3\, AI-assisted automation\, Terraform 
+ basics (Lectures 220–223)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n216. Exception Hand
+ ling (10min)\n217. Cloud Interaction with Boto3 (11min)\n218. AI for Clo
+ ud Automation (17min)\n219. Copilot AI for Cloud Automation (14min)\n220
+ . Python Scripts (0min)\n221. Introduction (7min)\n222. Basics of Terraf
+ orm (16min)\n223. Code Structure (17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dfaec4f2dad03f30f2b6ba6098c2f9db@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T121500
+DTEND;TZID=Africa/Lagos:20260923T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:15b83de18fe330b2a88b3813fcae83fd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T131500
+DTEND;TZID=Africa/Lagos:20260923T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Write a Boto3 script that lists every running EC2 with its ta
+ gs and flags any without an Owner tag. Then write your first main.tf.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:95417df14a9017ba4a7c41b0aa5e7ddb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T151500
+DTEND;TZID=Africa/Lagos:20260923T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cb78c69383c84f4a0beed6b8fed8801c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T153000
+DTEND;TZID=Africa/Lagos:20260923T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f3126301b8b8dcebb7e0d04c8295c8b9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260923T163000
+DTEND;TZID=Africa/Lagos:20260923T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f5e526e4763e1b1a60e8584c01491f82@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T090000
+DTEND;TZID=Africa/Lagos:20260924T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3e094d3933e856076db3a99480f2e297@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T130000
+DTEND;TZID=Africa/Lagos:20260924T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e0c545f4e68c88a73f1e53578bbbd3cb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T140000
+DTEND;TZID=Africa/Lagos:20260924T150000
+SUMMARY:DevOps Study - Udemy (light): Terraform code structure & variable
+ s (Lectures 224–226)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n224. Code Structure Part 2 (6min)\n225. Plan\,
+  Apply\, Update & Destroy (17min)\n226. Variables (13min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dfa49a36a1a2f84964eac57bd5b5f921@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T150000
+DTEND;TZID=Africa/Lagos:20260924T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Split your main.tf into main.tf / variables.tf / outputs.tf a
+ nd parameterise the AMI and instance type.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3e10f57995161481fca602a142e17244@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T160000
+DTEND;TZID=Africa/Lagos:20260924T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:45f3c5ae8e9a916ac5ee6be58ec21cc7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260924T163000
+DTEND;TZID=Africa/Lagos:20260924T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c2c80a94d914c0c02e60b0210f519250@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T090000
+DTEND;TZID=Africa/Lagos:20260925T103000
+SUMMARY:DevOps Study - Udemy: Provisioners\, outputs\, backend + Ansible 
+ intro (Lectures 227–231)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n227. Provisioners (10min)\n228. Outputs (5min)\n229. Backen
+ d (5min)\n230. What Next? (2min)\n231. Introduction (16min)\n232. Setup 
+ Ansible & Infra (11min)\n233. Inventory & Ping Module (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:29d666651026091b76b090bc166c5d80@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T103000
+DTEND;TZID=Africa/Lagos:20260925T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3692919c85046b4e903c169c490510a4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T104500
+DTEND;TZID=Africa/Lagos:20260925T121500
+SUMMARY:DevOps Study - Udemy: Provisioners\, outputs\, backend + Ansible 
+ intro (Lectures 232–233)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n227. Provisioners (
+ 10min)\n228. Outputs (5min)\n229. Backend (5min)\n230. What Next? (2min)
+ \n231. Introduction (16min)\n232. Setup Ansible & Infra (11min)\n233. In
+ ventory & Ping Module (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:38a2a54a40ae0d113eb3c7b2425643a6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T121500
+DTEND;TZID=Africa/Lagos:20260925T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:14499d86840aae789d3950b621ed8930@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T131500
+DTEND;TZID=Africa/Lagos:20260925T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Move Terraform state to an S3 backend. Then install Ansible a
+ nd ping two Terraform-created EC2s from an inventory file.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:151fc508bf7fd602ed53e7bc6a80d4a4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T151500
+DTEND;TZID=Africa/Lagos:20260925T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:00651f6ebe55eb69e3323e6e1417af8a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T153000
+DTEND;TZID=Africa/Lagos:20260925T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:75631b0bc6d91dd8f27b8f96e6db1dd7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260925T163000
+DTEND;TZID=Africa/Lagos:20260925T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:98b4a8d971394c39cb40f8920ee67631@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T090000
+DTEND;TZID=Africa/Lagos:20260926T110000
+SUMMARY:LAB 4: Terraform-provisioned infrastructure with Python/Boto3 aut
+ omation - build phase
+DESCRIPTION:Replace all manual clicking with code. Write Terraform that p
+ rovisions the app tier (EC2s\, security groups\, key pair\, S3 bucket\, 
+ remote state backend) and a Python/Boto3 tool that audits the account: l
+ ists running instances\, flags untagged resources\, and reports estimate
+ d monthly cost of what is running.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7ff1f6d0aa4a5fa86e17d47daa11ccb1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T110000
+DTEND;TZID=Africa/Lagos:20260926T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dc8c64efbe116b3342c9e0592edeba1d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T111500
+DTEND;TZID=Africa/Lagos:20260926T130000
+SUMMARY:LAB 4: Terraform-provisioned infrastructure with Python/Boto3 aut
+ omation - continue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf272211aad008031910274245d496a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T130000
+DTEND;TZID=Africa/Lagos:20260926T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0337e3ec9ebaf37c9b18c7c0f848ad89@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T140000
+DTEND;TZID=Africa/Lagos:20260926T154500
+SUMMARY:LAB 4: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f14d6cad71abac4fd276632db6b84584@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T154500
+DTEND;TZID=Africa/Lagos:20260926T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:48005967080c344c94f57c9dc388569f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260926T163000
+DTEND;TZID=Africa/Lagos:20260926T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9870b4d0dcf52470085014e11139103c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260927T100000
+DTEND;TZID=Africa/Lagos:20260927T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 4. Run `terraform destroy`\, then run
+  your Boto3 auditor and paste the empty output into the README as proof 
+ of cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2d7c347be3fee32d0716c6ce556ee80c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260927T120000
+DTEND;TZID=Africa/Lagos:20260927T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bba87b9b6af9ecc580549e1048fefa43@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260927T130000
+DTEND;TZID=Africa/Lagos:20260927T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6510c81508677a796fc6a5a4cf16951f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260927T140000
+DTEND;TZID=Africa/Lagos:20260927T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8177986826347f689394a3a1ec57566c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260927T150000
+DTEND;TZID=Africa/Lagos:20260927T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5afc5b4fb6688a2f96fe4c55d43cfe69@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T090000
+DTEND;TZID=Africa/Lagos:20260928T103000
+SUMMARY:DevOps Study - Udemy: Ansible inventory\, ad hoc\, playbooks (Lec
+ tures 234–237)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n234. Inventory Part 2 (19min)\n235. YAML & JSON (9min)\n236
+ . Ad Hoc Commands (12min)\n237. Playbook & Modules (21min)\n238. Modules
+  - Find\, Use\, Troubleshoot & Repeat (20min)\n239. Ansible Configuratio
+ n (11min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0e8beb10107a0a4e3e92355a423d52b9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T103000
+DTEND;TZID=Africa/Lagos:20260928T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7575ca646e2ab3a5e250a3b6f736ad8a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T104500
+DTEND;TZID=Africa/Lagos:20260928T121500
+SUMMARY:DevOps Study - Udemy: Ansible inventory\, ad hoc\, playbooks (Lec
+ tures 238–239)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n234. Inventory Part
+  2 (19min)\n235. YAML & JSON (9min)\n236. Ad Hoc Commands (12min)\n237. 
+ Playbook & Modules (21min)\n238. Modules - Find\, Use\, Troubleshoot & R
+ epeat (20min)\n239. Ansible Configuration (11min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5333a978e30fe0daa65d289d42a7acab@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T121500
+DTEND;TZID=Africa/Lagos:20260928T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5d54cc176c99af5dcedab6ef3fef5bae@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T131500
+DTEND;TZID=Africa/Lagos:20260928T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Write a playbook that installs Nginx\, copies a custom index.
+ html and starts the service on both hosts. Run it twice and explain idem
+ potency.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4b0cc851c42baba85561d89a38c4cf41@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T151500
+DTEND;TZID=Africa/Lagos:20260928T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6fea1d310e6f50248026aab9ee6ef45e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T153000
+DTEND;TZID=Africa/Lagos:20260928T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2375b58ba18e6bfd446acb6fe6fddb69@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260928T163000
+DTEND;TZID=Africa/Lagos:20260928T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c85fec15db88cfbf04bcf9407728d75f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T090000
+DTEND;TZID=Africa/Lagos:20260929T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f95d1e5a7d9ec4446fafad030ffec192@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T130000
+DTEND;TZID=Africa/Lagos:20260929T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dc1304db75614d0061a0a81048125e7e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T140000
+DTEND;TZID=Africa/Lagos:20260929T150000
+SUMMARY:DevOps Study - Udemy (light): Ansible variables & facts (Lectures
+  240–242)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n240. Variables & Debug (14min)\n241. Group & H
+ ost Variables (15min)\n242. Fact Variables (11min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:af41992ab5383318feb74e822d849e5e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T150000
+DTEND;TZID=Africa/Lagos:20260929T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Convert hard-coded values in your playbook into group_vars\, 
+ then print three fact variables with the debug module.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c1bface5a22a7e63551daad54caaf0b8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T160000
+DTEND;TZID=Africa/Lagos:20260929T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ebac44359e75201303dacab476943b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260929T163000
+DTEND;TZID=Africa/Lagos:20260929T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:25b5e2d5b34b3b883a510f7676ad190b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T090000
+DTEND;TZID=Africa/Lagos:20260930T103000
+SUMMARY:DevOps Study - Udemy: Conditionals\, loops\, templates\, roles\, 
+ AWS (Lectures 243–247)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n243. Decision Making (12min)\n244. Loops (6min)\n245. File\
+ , copy & template modules (20min)\n246. Handlers (7min)\n247. Roles (31m
+ in)\n248. Ansible for AWS (20min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2539e5b9ff7fd57f9b436a8187b749c6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T103000
+DTEND;TZID=Africa/Lagos:20260930T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:31d32fff9da16bbdb411882e4a469732@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T104500
+DTEND;TZID=Africa/Lagos:20260930T121500
+SUMMARY:DevOps Study - Udemy: Conditionals\, loops\, templates\, roles\, 
+ AWS (Lectures 248)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n243. Decision Makin
+ g (12min)\n244. Loops (6min)\n245. File\, copy & template modules (20min
+ )\n246. Handlers (7min)\n247. Roles (31min)\n248. Ansible for AWS (20min
+ )
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:89fb69e3ce303c35cd555fe28f1601e0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T121500
+DTEND;TZID=Africa/Lagos:20260930T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c031e459d8f37569eaa386b1169ce8ac@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T131500
+DTEND;TZID=Africa/Lagos:20260930T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Refactor the Nginx playbook into a proper role (tasks/handler
+ s/templates/vars) and template the config file with Jinja2.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7f0305c20fcdf46bf8e9ace1bcd3896f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T151500
+DTEND;TZID=Africa/Lagos:20260930T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:190e0daf19766c2eb6c52051d7005c08@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T153000
+DTEND;TZID=Africa/Lagos:20260930T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:964cc61bcbbdd923861133a2dae2a1d0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20260930T163000
+DTEND;TZID=Africa/Lagos:20260930T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:edeb0b30e8dc4481dd6ef97a595ead7e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T090000
+DTEND;TZID=Africa/Lagos:20261001T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5552d13344b5af8c89461ae703bbb7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T130000
+DTEND;TZID=Africa/Lagos:20261001T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:49594735e90247536b8b6952736c1f09@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T140000
+DTEND;TZID=Africa/Lagos:20261001T150000
+SUMMARY:DevOps Study - Udemy (light): vProfile Ansible code + monitoring 
+ intro (Lectures 249–252)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n249. Vprofile code (0min)\n250. Introduction t
+ o Monitoring (15min)\n251. Why Monitoring is Essential for DevOps (3min)
+ \n252. Monitoring and Observability Tools (13min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e896c32419f678a40718542ec473b24d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T150000
+DTEND;TZID=Africa/Lagos:20261001T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Read the vProfile Ansible code and map each role to something
+  you already built by hand in Week 1.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fc187418256e6d47bc254fe13725d264@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T160000
+DTEND;TZID=Africa/Lagos:20261001T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:62fa8071de2cd9191e5079061b8dd4a1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261001T163000
+DTEND;TZID=Africa/Lagos:20261001T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:95a8a4b7be240db99ccf8e6570434680@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T090000
+DTEND;TZID=Africa/Lagos:20261002T103000
+SUMMARY:DevOps Study - Udemy: Prometheus\, node exporter\, PromQL\, Grafa
+ na (Lectures 253–255)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n253. Setting Up the Monitoring Environment (15min)\n254. Lo
+ ki and Web Server Setup (20min)\n255. Adding a Node to Prometheus (16min
+ )\n256. Understanding PromQL (Prometheus Query Language) (16min)\n257. C
+ onnecting Grafana & Prometheus (7min)\n258. Integrating Slack for Notifi
+ cations (4min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:85c4fc6dffb44e30399e03035d8088e0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T103000
+DTEND;TZID=Africa/Lagos:20261002T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a78683bee4f2dd82bce5717e15d88858@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T104500
+DTEND;TZID=Africa/Lagos:20261002T121500
+SUMMARY:DevOps Study - Udemy: Prometheus\, node exporter\, PromQL\, Grafa
+ na (Lectures 256–258)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n253. Setting Up the
+  Monitoring Environment (15min)\n254. Loki and Web Server Setup (20min)\
+ n255. Adding a Node to Prometheus (16min)\n256. Understanding PromQL (Pr
+ ometheus Query Language) (16min)\n257. Connecting Grafana & Prometheus (
+ 7min)\n258. Integrating Slack for Notifications (4min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4c2ec5713919493fbd065c33a318ab80@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T121500
+DTEND;TZID=Africa/Lagos:20261002T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2743c5629bbf0571f1e493cec07adbaa@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T131500
+DTEND;TZID=Africa/Lagos:20261002T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Install Prometheus + node_exporter on one EC2 and Grafana alo
+ ngside it. Query node_cpu_seconds_total in PromQL and connect Grafana.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7a3d3a3db06f708e1f0f64c0f7164d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T151500
+DTEND;TZID=Africa/Lagos:20261002T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9a4248cefc38fc8819de8dea1c980900@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T153000
+DTEND;TZID=Africa/Lagos:20261002T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f0d6c779518de86412a027752f57c2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261002T163000
+DTEND;TZID=Africa/Lagos:20261002T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8a71101cbcca25d136a9ccf3030886dc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T090000
+DTEND;TZID=Africa/Lagos:20261003T100000
+SUMMARY:DevOps Study - Udemy: Grafana dashboards\, alerts\, Loki (Lecture
+ s 259–262)
+DESCRIPTION:SATURDAY LECTURES (justified): these four are the dashboard/a
+ lerting build itself - watching them inside the lab is more effective th
+ an watching them a day early.\n\nToday's lectures:\n259. PromQL for Graf
+ ana Dashboards (12min)\n260. Building Grafana Panels and Dashboards (17m
+ in)\n261. Creating Alerts and Thresholds (11min)\n262. Integrating Loki 
+ and Alloy for Logs and Metrics (13min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a92fa75bed579f2ec0ac26a6019ec0fd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T100000
+DTEND;TZID=Africa/Lagos:20261003T130000
+SUMMARY:LAB 5: Ansible configuration management + Prometheus/Grafana obse
+ rvability - build phase
+DESCRIPTION:Provision infrastructure with Terraform\, configure it entire
+ ly with Ansible roles\, and monitor it with Prometheus\, Grafana\, node_
+ exporter and Loki. Build a real dashboard and a real alert that fires to
+  Slack.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cea8d78f71aa362fd6cd97dcd0d58f11@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T130000
+DTEND;TZID=Africa/Lagos:20261003T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:06b67d4526aee09ad36b6cdfbbb92785@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T140000
+DTEND;TZID=Africa/Lagos:20261003T154500
+SUMMARY:LAB 5: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2742ce0baf7a7f0775f8c8847d75c2a8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T154500
+DTEND;TZID=Africa/Lagos:20261003T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7e8509e46b12b3c303a235a63610ad47@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261003T163000
+DTEND;TZID=Africa/Lagos:20261003T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:07ace2b8e8aae1e7466afc2339903b38@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261004T100000
+DTEND;TZID=Africa/Lagos:20261004T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 5. Export your Grafana dashboard JSON
+  into the repo so anyone can import it. Mid-point review: are you on tra
+ ck?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:88c63cc845e1ab70b569913ff7099f71@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261004T120000
+DTEND;TZID=Africa/Lagos:20261004T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:40c1565610a7fdc02ca6ca6e7e68045e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261004T130000
+DTEND;TZID=Africa/Lagos:20261004T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7e95c817ab9ab3179bd84f19be232842@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261004T140000
+DTEND;TZID=Africa/Lagos:20261004T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4f960a774b8923f1d65c6411436ade20@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261004T150000
+DTEND;TZID=Africa/Lagos:20261004T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1313319445a0d435cf357a58f6105d29@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T090000
+DTEND;TZID=Africa/Lagos:20261005T103000
+SUMMARY:DevOps Study - Udemy: VPC design and components (Lectures 263–265
+ )
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n263. VPC Introduction (28min)\n264. VPC Design & Components
+  (9min)\n265. VPC Setup Details (4min)\n266. Default VPC (7min)\n267. Cr
+ eate VPC (6min)\n268. Subnets (3min)\n269. Internet Gateway (2min)\n270.
+  Route Tables (4min)\n271. NAT Gateway (6min)\n272. [TITLE NOT READABLE 
+ IN SCREENSHOT] (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:be4875eb3d623df169787ebdd4213a43@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T103000
+DTEND;TZID=Africa/Lagos:20261005T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0525c35b4f92a7266b6e17d3a619ad5c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T104500
+DTEND;TZID=Africa/Lagos:20261005T121500
+SUMMARY:DevOps Study - Udemy: VPC design and components (Lectures 266–272
+ )
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n263. VPC Introducti
+ on (28min)\n264. VPC Design & Components (9min)\n265. VPC Setup Details 
+ (4min)\n266. Default VPC (7min)\n267. Create VPC (6min)\n268. Subnets (3
+ min)\n269. Internet Gateway (2min)\n270. Route Tables (4min)\n271. NAT G
+ ateway (6min)\n272. [TITLE NOT READABLE IN SCREENSHOT] (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:008cdd643d427f48fec2252ac77b8506@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T121500
+DTEND;TZID=Africa/Lagos:20261005T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6d7ecda30e47c205bdef521680b7d997@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T131500
+DTEND;TZID=Africa/Lagos:20261005T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Draw the target VPC on paper first: 2 public + 2 private subn
+ ets\, IGW\, NAT\, route tables. Then build it in the console.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:155d72d9b902eb0ab7ad611abbf4a56a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T151500
+DTEND;TZID=Africa/Lagos:20261005T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:db0950e05f85b97a65f8ef5132f1d53e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T153000
+DTEND;TZID=Africa/Lagos:20261005T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e7ef97665946a0718f466385e14789@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261005T163000
+DTEND;TZID=Africa/Lagos:20261005T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ed0640a99a68e29a4fd926947e7c7560@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T090000
+DTEND;TZID=Africa/Lagos:20261006T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:30c030679e1b8eef8909110ad2366a94@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T130000
+DTEND;TZID=Africa/Lagos:20261006T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2de11b43eaaefb4f3fa62edde8dcd371@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T140000
+DTEND;TZID=Africa/Lagos:20261006T150000
+SUMMARY:DevOps Study - Udemy (light): Website in VPC\, peering\, Terrafor
+ m VPC (Lectures 273–275)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n273. Website in VPC (14min)\n274. Peering (11m
+ in)\n275. Terraform for VPC Setup (13min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f9a92ad63ed4a0fd5cf2ec092cb159b8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T150000
+DTEND;TZID=Africa/Lagos:20261006T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Recreate today's VPC in Terraform. Compare the console versio
+ n with the code version - which one could you rebuild in 5 minutes?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bb9b92637f44e69d91d60b7260bc574b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T160000
+DTEND;TZID=Africa/Lagos:20261006T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c44b3c5ffa103df436ae9f0e4db6b4e2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261006T163000
+DTEND;TZID=Africa/Lagos:20261006T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:85e4cc42eb1a2d58a571835915262f37@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T090000
+DTEND;TZID=Africa/Lagos:20261007T103000
+SUMMARY:DevOps Study - Udemy: EC2 logs\, Lambda\, AWS CI/CD project (Lect
+ ures 276–284)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n276. Ec2 Logs (31min)\n277. AWS Lambda (19min)\n278. Links 
+ (0min)\n279. buildspec (0min)\n280. Links (0min)\n281. S3 policy (0min)\
+ n282. Introduction (4min)\n283. Beanstalk (7min)\n284. RDS & App Setup o
+ n Beanstalk (12min)\n285. Code Commit (14min)\n286. Code build (22min)\n
+ 287. Build\, Deploy & Code Pipeline (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf9d9aba761076f7c91e82a48129e59@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T103000
+DTEND;TZID=Africa/Lagos:20261007T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:69d547efcfaa1f218e74de71753380f4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T104500
+DTEND;TZID=Africa/Lagos:20261007T121500
+SUMMARY:DevOps Study - Udemy: EC2 logs\, Lambda\, AWS CI/CD project (Lect
+ ures 285–287)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n276. Ec2 Logs (31mi
+ n)\n277. AWS Lambda (19min)\n278. Links (0min)\n279. buildspec (0min)\n2
+ 80. Links (0min)\n281. S3 policy (0min)\n282. Introduction (4min)\n283. 
+ Beanstalk (7min)\n284. RDS & App Setup on Beanstalk (12min)\n285. Code C
+ ommit (14min)\n286. Code build (22min)\n287. Build\, Deploy & Code Pipel
+ ine (14min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:77780e46e53eabeec02f55365872ece9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T121500
+DTEND;TZID=Africa/Lagos:20261007T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:64c26b19369e1834635ff4d0ffc03abf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T131500
+DTEND;TZID=Africa/Lagos:20261007T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Build the CodeCommit -> CodeBuild -> CodePipeline -> Beanstal
+ k pipeline end to end. Delete the pipeline and Beanstalk env afterwards.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f198a054831c321778c4a79927d73f3c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T151500
+DTEND;TZID=Africa/Lagos:20261007T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8bac1d218150b833a5f3af1762022deb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T153000
+DTEND;TZID=Africa/Lagos:20261007T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e207c44567aa4a33082f06b934943d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261007T163000
+DTEND;TZID=Africa/Lagos:20261007T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:926e61bb1c8e17fd9e02ae94c5d8eca0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T090000
+DTEND;TZID=Africa/Lagos:20261008T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:43b528177f6797a26cbb16a315bd51d5@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T130000
+DTEND;TZID=Africa/Lagos:20261008T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d463b73d8a29a45900619a30797266d9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T140000
+DTEND;TZID=Africa/Lagos:20261008T150000
+SUMMARY:DevOps Study - Udemy (light): GCP vProfile project intro (Lecture
+ s 288–291)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n288. Introduction to the GCP vProfile Project 
+ (11min)\n289. Project Architecture Overview (7min)\n290. Setting Up Your
+  GCP Account & Project (6min)\n291. Commands in the Source Code (6min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:76f12839f2c0c42ddbb13454471cde05@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T150000
+DTEND;TZID=Africa/Lagos:20261008T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Create a GCP free-trial project\, install gcloud\, and set yo
+ ur project/region defaults. Do not enable billing-heavy APIs you do not 
+ need.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7559e7f433ad1425f151d305a0b75f55@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T160000
+DTEND;TZID=Africa/Lagos:20261008T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5af18afa5532c2ee979b770c56bee636@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261008T163000
+DTEND;TZID=Africa/Lagos:20261008T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ee78614731020626ca36414a498f7d1d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T090000
+DTEND;TZID=Africa/Lagos:20261009T103000
+SUMMARY:DevOps Study - Udemy: GCP network\, Cloud SQL\, MIG\, LB\, DNS (L
+ ectures 292–296)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n292. Configuring Project Variables (7min)\n293. VPC\, Subne
+ ts & Network Setup (9min)\n294. Firewall Rules & VM Deployment (14min)\n
+ 295. Configuring Cloud SQL & Memorystore (11min)\n296. Setting Up Cloud 
+ DNS (8min)\n297. Creating a Custom VM Image (11min)\n298. Building a Man
+ aged Instance Group (MIG) (5min)\n299. Configuring the Global HTTP/HTTPS
+  Load Balancer (11min)\n300. SSL Certificates\, HTTPS & Final DNS Setup 
+ (9min)\n301. Summary and Cleanup (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5c4e7b331e07aad9a066935b074eb1ce@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T103000
+DTEND;TZID=Africa/Lagos:20261009T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7190298d90da9cf7e59be1e1873d2361@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T104500
+DTEND;TZID=Africa/Lagos:20261009T121500
+SUMMARY:DevOps Study - Udemy: GCP network\, Cloud SQL\, MIG\, LB\, DNS (L
+ ectures 297–301)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n292. Configuring Pr
+ oject Variables (7min)\n293. VPC\, Subnets & Network Setup (9min)\n294. 
+ Firewall Rules & VM Deployment (14min)\n295. Configuring Cloud SQL & Mem
+ orystore (11min)\n296. Setting Up Cloud DNS (8min)\n297. Creating a Cust
+ om VM Image (11min)\n298. Building a Managed Instance Group (MIG) (5min)
+ \n299. Configuring the Global HTTP/HTTPS Load Balancer (11min)\n300. SSL
+  Certificates\, HTTPS & Final DNS Setup (9min)\n301. Summary and Cleanup
+  (8min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6dba7bf48ecf5aecc4c61c024147e560@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T121500
+DTEND;TZID=Africa/Lagos:20261009T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e8cd2947074c211055e85d8dd8e6fbdd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T131500
+DTEND;TZID=Africa/Lagos:20261009T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Complete the GCP deployment and then run the Section 301 clea
+ nup in full. Verify in the billing console that nothing is still running
+ .
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:046c8b6fd481b302a980aac84d456656@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T151500
+DTEND;TZID=Africa/Lagos:20261009T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c948d16478cbaa8e1ccb6b1985da3f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T153000
+DTEND;TZID=Africa/Lagos:20261009T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4a7085ddef73fb81fc723cb172d6fc43@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261009T163000
+DTEND;TZID=Africa/Lagos:20261009T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bdfbbe5800e2f4b3adca5d6db349e841@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T090000
+DTEND;TZID=Africa/Lagos:20261010T110000
+SUMMARY:LAB 6: Production-style VPC + AWS-native CI/CD pipeline - build p
+ hase
+DESCRIPTION:Build a proper three-tier VPC in Terraform (public/private su
+ bnets across two AZs\, IGW\, NAT gateway\, route tables\, bastion) and d
+ eploy the application into it through an AWS-native CodeCommit/CodeBuild
+ /CodePipeline flow.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:250481848b78910dbe6086bca0f4198d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T110000
+DTEND;TZID=Africa/Lagos:20261010T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3905ab5b6f7b8047d7be8decc5d5d632@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T111500
+DTEND;TZID=Africa/Lagos:20261010T130000
+SUMMARY:LAB 6: Production-style VPC + AWS-native CI/CD pipeline - continu
+ e
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8cd683f99b3be835012558c77cb6aa28@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T130000
+DTEND;TZID=Africa/Lagos:20261010T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bca8dc6401e44e82f0c08473408e7407@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T140000
+DTEND;TZID=Africa/Lagos:20261010T154500
+SUMMARY:LAB 6: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:008b8429c00f8a1908fcde03c5175187@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T154500
+DTEND;TZID=Africa/Lagos:20261010T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:284f3b7d9cf49653d1bb4cd76d706867@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261010T163000
+DTEND;TZID=Africa/Lagos:20261010T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:64e7415b49974b72647d32ea7e1e71cf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261011T100000
+DTEND;TZID=Africa/Lagos:20261011T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 6. Redraw the VPC diagram from memory
+  without looking at your notes - if you cannot\, you have not learned it
+  yet.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9780e7b124024e125c1ae6023f1ac01e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261011T120000
+DTEND;TZID=Africa/Lagos:20261011T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d62b4e9b4485b7cd241681e27b43fe69@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261011T130000
+DTEND;TZID=Africa/Lagos:20261011T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:43d74ce90ccc364e5b854f8bb7561fd2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261011T140000
+DTEND;TZID=Africa/Lagos:20261011T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:183645ce83956505e998d9f64660d0ed@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261011T150000
+DTEND;TZID=Africa/Lagos:20261011T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3af59a53a3f6a5beed82194b26b5b5e4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T090000
+DTEND;TZID=Africa/Lagos:20261012T103000
+SUMMARY:DevOps Study - Udemy: Docker engine\, commands\, logs\, volumes (
+ Lectures 302–304)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n302. Introduction (10min)\n303. Docker Setup (9min)\n304. D
+ ocker commands & concepts (22min)\n305. Docker Logs (8min)\n306. Docker 
+ volumes (17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:679cdda3dc05dbfa6ddbf189561eb888@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T103000
+DTEND;TZID=Africa/Lagos:20261012T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:31c2adcb8b3067294490ea73464b15b1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T104500
+DTEND;TZID=Africa/Lagos:20261012T121500
+SUMMARY:DevOps Study - Udemy: Docker engine\, commands\, logs\, volumes (
+ Lectures 305–306)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n302. Introduction (
+ 10min)\n303. Docker Setup (9min)\n304. Docker commands & concepts (22min
+ )\n305. Docker Logs (8min)\n306. Docker volumes (17min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5a6968ec966b7913b287dc76690acfec@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T121500
+DTEND;TZID=Africa/Lagos:20261012T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2d5d3a2c1527361f3fa8643f886050ba@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T131500
+DTEND;TZID=Africa/Lagos:20261012T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Run Nginx in a container\, break it deliberately\, read the l
+ ogs\, then attach a named volume and prove data survives a container del
+ ete.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1e5e7f481ba220d307dec05bec3169f1@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T151500
+DTEND;TZID=Africa/Lagos:20261012T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b6df2851766600653d8f01f79a7e5935@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T153000
+DTEND;TZID=Africa/Lagos:20261012T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:79e34765dfb81ba44b9b249cb3754985@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261012T163000
+DTEND;TZID=Africa/Lagos:20261012T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:15854ead5ffc362a5fd938d2b0c6ac88@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T090000
+DTEND;TZID=Africa/Lagos:20261013T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4708c67a20aec07c2a0ec70b171f09cb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T130000
+DTEND;TZID=Africa/Lagos:20261013T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ea860e061a751eb20f8fdb832bbeb9d8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T140000
+DTEND;TZID=Africa/Lagos:20261013T150000
+SUMMARY:DevOps Study - Udemy (light): Building images\, ENTRYPOINT vs CMD
+  (Lectures 307–308)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n307. Building images (21min)\n308. Entrypoint 
+ and CMD (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:69964b46aacede34ab397275a842ac76@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T150000
+DTEND;TZID=Africa/Lagos:20261013T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Write a Dockerfile for a tiny app. Change ENTRYPOINT to CMD a
+ nd back\, and write down in your notes what actually changed.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8b62393e4b438e3b520a933445c79ddf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T160000
+DTEND;TZID=Africa/Lagos:20261013T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:48a8d98e57ca0591564f695d98e87c41@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261013T163000
+DTEND;TZID=Africa/Lagos:20261013T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:90041b2b2f15f1a35f158e633b189f70@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T090000
+DTEND;TZID=Africa/Lagos:20261014T103000
+SUMMARY:DevOps Study - Udemy: Compose\, multi-stage\, base images\, Docke
+ rhub (Lectures 309–311)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n309. Docker Compose (15min)\n310. Multi Stage Dockerfile (1
+ 0min)\n311. Introduction (10min)\n312. Overview of Base Image (9min)\n31
+ 3. Dockerhub Setup (3min)\n314. Setup Docker Engine (6min)\n315. Dockerh
+ ub & Dockerfile References (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e82900f696566aa277eb7d8f039acfcc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T103000
+DTEND;TZID=Africa/Lagos:20261014T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5b92efec37e31587ff553c52876a23cc@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T104500
+DTEND;TZID=Africa/Lagos:20261014T121500
+SUMMARY:DevOps Study - Udemy: Compose\, multi-stage\, base images\, Docke
+ rhub (Lectures 312–315)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n309. Docker Compose
+  (15min)\n310. Multi Stage Dockerfile (10min)\n311. Introduction (10min)
+ \n312. Overview of Base Image (9min)\n313. Dockerhub Setup (3min)\n314. 
+ Setup Docker Engine (6min)\n315. Dockerhub & Dockerfile References (7min
+ )
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c22ae159b7f72b682ee909f6f1e4a9e0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T121500
+DTEND;TZID=Africa/Lagos:20261014T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0900449d7720945e1294f41c21f97a8d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T131500
+DTEND;TZID=Africa/Lagos:20261014T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Write a multi-stage Dockerfile that builds the war in one sta
+ ge and copies only the artifact into a slim runtime stage. Compare image
+  sizes.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:34ea10fc6170385593bf606357b8b4c8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T151500
+DTEND;TZID=Africa/Lagos:20261014T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4420865c6e4a56326596749c46c670e5@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T153000
+DTEND;TZID=Africa/Lagos:20261014T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e2480a4d304046e42c8f6cf39838aa4e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261014T163000
+DTEND;TZID=Africa/Lagos:20261014T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:83d05dfb4cb17aca429d19811e3f3d0e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T090000
+DTEND;TZID=Africa/Lagos:20261015T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:85566aa490c3654834d53d34e230b390@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T130000
+DTEND;TZID=Africa/Lagos:20261015T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a1f5438a5190299858dc71df5a6a8d91@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T140000
+DTEND;TZID=Africa/Lagos:20261015T150000
+SUMMARY:DevOps Study - Udemy (light): App\, DB and Web image Dockerfiles 
+ (Lectures 316–318)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n316. App Image Dockerfile (10min)\n317. DB Ima
+ ge Dockerfile (7min)\n318. Web Image Dockerfile (6min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:667f021c4c12e7ace1fd76a88b028bec@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T150000
+DTEND;TZID=Africa/Lagos:20261015T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Build all three vProfile images locally and push them to your
+  Docker Hub account under your own namespace.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f87a44d9dabf77ac8561dc50d723692b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T160000
+DTEND;TZID=Africa/Lagos:20261015T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:700b353945175769fb712f3ed41fa134@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261015T163000
+DTEND;TZID=Africa/Lagos:20261015T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1534597dfb79fdb0bd1413404ad4b3cf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T090000
+DTEND;TZID=Africa/Lagos:20261016T103000
+SUMMARY:DevOps Study - Udemy: Compose stack + microservice containerizati
+ on (Lectures 319–321)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n319. Docker Compose (19min)\n320. Build and Run (11min)\n32
+ 1. Summarize (6min)\n322. Containerizing Microservice Project (22min)\n3
+ 23. Build & Run Microservice App (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:401984ccfec299f6e42abe1012c9a7dd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T103000
+DTEND;TZID=Africa/Lagos:20261016T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:183aa94da396d677bfd014dcc533dc04@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T104500
+DTEND;TZID=Africa/Lagos:20261016T121500
+SUMMARY:DevOps Study - Udemy: Compose stack + microservice containerizati
+ on (Lectures 322–323)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n319. Docker Compose
+  (19min)\n320. Build and Run (11min)\n321. Summarize (6min)\n322. Contai
+ nerizing Microservice Project (22min)\n323. Build & Run Microservice App
+  (12min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a78efdbb3d511b9c7f8cfa726ce1d0b4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T121500
+DTEND;TZID=Africa/Lagos:20261016T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ebe4c18eefe7950724cc129edf2e2c17@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T131500
+DTEND;TZID=Africa/Lagos:20261016T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Bring the entire stack up with one `docker compose up -d`\, t
+ hen containerize the microservice project.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a8d11cf622ad9e408473d633f0db1c85@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T151500
+DTEND;TZID=Africa/Lagos:20261016T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:327997283c368b05163dabe3e5ad9436@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T153000
+DTEND;TZID=Africa/Lagos:20261016T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:92d00b3a72c60f77e228c0c8f9934aa7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261016T163000
+DTEND;TZID=Africa/Lagos:20261016T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:25f66e01015e558d6631ad80ed139aca@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T090000
+DTEND;TZID=Africa/Lagos:20261017T110000
+SUMMARY:LAB 7: Full containerization of the multi-tier application - buil
+ d phase
+DESCRIPTION:Containerize every tier: a multi-stage Dockerfile for the Jav
+ a app\, a custom DB image with the schema pre-loaded\, an Nginx web imag
+ e\, plus Memcached and RabbitMQ. Bring the whole thing up with one docke
+ r compose command and publish the images.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b64ad60ebe6d6543792f9b4754124c58@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T110000
+DTEND;TZID=Africa/Lagos:20261017T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f5bf10d4d8f7809544d41ec4b3aa18e4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T111500
+DTEND;TZID=Africa/Lagos:20261017T130000
+SUMMARY:LAB 7: Full containerization of the multi-tier application - cont
+ inue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:577cccb4f051667570cda2139582bea7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T130000
+DTEND;TZID=Africa/Lagos:20261017T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:70fd91ac577b46e156d82f48c4fa2f80@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T140000
+DTEND;TZID=Africa/Lagos:20261017T154500
+SUMMARY:LAB 7: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:49048d18f1b122b69915eab1119d8173@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T154500
+DTEND;TZID=Africa/Lagos:20261017T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9f3db8218aa7fb53ecdbf29d86ee1139@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261017T163000
+DTEND;TZID=Africa/Lagos:20261017T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6ea02583dbf3b3e7b6c6351e6eb85c74@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261018T100000
+DTEND;TZID=Africa/Lagos:20261018T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish and document Lab 7. Then WRITE THE CAPSTONE PLAN: arch
+ itecture diagram\, repo layout\, and the order you will build it in next
+  week.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9eef309a507048d5add151da9374ebd6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261018T120000
+DTEND;TZID=Africa/Lagos:20261018T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dcab3c30fa85ae81eff9e915d9405c86@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261018T130000
+DTEND;TZID=Africa/Lagos:20261018T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:afd9a42c935e923fa5c9f249eb8ceab2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261018T140000
+DTEND;TZID=Africa/Lagos:20261018T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cc64f7c1d1f7793913e7b67716da25eb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261018T150000
+DTEND;TZID=Africa/Lagos:20261018T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dd9eb18caff868708acdbf574c36fadd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T090000
+DTEND;TZID=Africa/Lagos:20261019T103000
+SUMMARY:DevOps Study - Udemy: Kubernetes intro\, Minikube\, Kops\, kubeco
+ nfig (Lectures 324–326)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n324. Introduction (23min)\n325. Minikube for K8s Setup (9mi
+ n)\n326. Kops for K8s Setup (23min)\n327. Objects and Documentation (5mi
+ n)\n328. Kube Config (10min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6c5852c769619c8aac73833b6c220d6a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T103000
+DTEND;TZID=Africa/Lagos:20261019T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1bd8e8a680aadff1c0364dcf8d5e6e8a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T104500
+DTEND;TZID=Africa/Lagos:20261019T121500
+SUMMARY:DevOps Study - Udemy: Kubernetes intro\, Minikube\, Kops\, kubeco
+ nfig (Lectures 327–328)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n324. Introduction (
+ 23min)\n325. Minikube for K8s Setup (9min)\n326. Kops for K8s Setup (23m
+ in)\n327. Objects and Documentation (5min)\n328. Kube Config (10min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:21e76b32f805780e856146f8f63e3688@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T121500
+DTEND;TZID=Africa/Lagos:20261019T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:792959315621209870a14a824b884f19@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T131500
+DTEND;TZID=Africa/Lagos:20261019T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Get a working Minikube cluster and run `kubectl get nodes`. U
+ nderstand your kubeconfig before touching a cloud cluster.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0fb734af6389160624458b120acdbc0b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T151500
+DTEND;TZID=Africa/Lagos:20261019T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7cbb67963f943f9c93a7425ef1f4f191@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T153000
+DTEND;TZID=Africa/Lagos:20261019T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d43dddd4d545ac71b5226a9eca741f69@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261019T163000
+DTEND;TZID=Africa/Lagos:20261019T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ad9ead50b62d6b4cd8351b91d4c4690b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T090000
+DTEND;TZID=Africa/Lagos:20261020T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:993586f1dfaa03f26dc4984cdc801205@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T130000
+DTEND;TZID=Africa/Lagos:20261020T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ea50a5eacb8f7b1f34febe08d899854e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T140000
+DTEND;TZID=Africa/Lagos:20261020T150000
+SUMMARY:DevOps Study - Udemy (light): Pods\, namespaces\, logging (Lectur
+ es 329–331)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n329. Pods (11min)\n330. Namespace (8min)\n331.
+  Different levels of Logging (9min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b508cf30d67c1a043c781aa21ac34158@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T150000
+DTEND;TZID=Africa/Lagos:20261020T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Create a pod from YAML\, put it in its own namespace\, then d
+ eliberately mistype the image name and read the resulting event stream.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0db0564e3f81f50ff1f15ed52e6f4a0c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T160000
+DTEND;TZID=Africa/Lagos:20261020T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:cd145c9eadc61a5e4342341d155831b9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261020T163000
+DTEND;TZID=Africa/Lagos:20261020T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:035abc47c8b4c5fb091fae772dd5a7ec@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T090000
+DTEND;TZID=Africa/Lagos:20261021T103000
+SUMMARY:DevOps Study - Udemy: Services\, ReplicaSets\, Deployments\, Conf
+ igMaps (Lectures 332–334)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n332. Service (21min)\n333. Replica Set (11min)\n334. Deploy
+ ment (12min)\n335. Command and Arguments (7min)\n336. Volumes (9min)\n33
+ 7. Config Map (15min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fe2c03cecd2281c4157a95a94171063d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T103000
+DTEND;TZID=Africa/Lagos:20261021T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c55adb737461534bc7c01147ebb59ecf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T104500
+DTEND;TZID=Africa/Lagos:20261021T121500
+SUMMARY:DevOps Study - Udemy: Services\, ReplicaSets\, Deployments\, Conf
+ igMaps (Lectures 335–337)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n332. Service (21min
+ )\n333. Replica Set (11min)\n334. Deployment (12min)\n335. Command and A
+ rguments (7min)\n336. Volumes (9min)\n337. Config Map (15min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:270b09720983ed053421f0172d506039@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T121500
+DTEND;TZID=Africa/Lagos:20261021T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:88adcb1f90c75f16fa47d0640da8319f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T131500
+DTEND;TZID=Africa/Lagos:20261021T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Deploy 3 replicas behind a ClusterIP service\, roll out an im
+ age change\, then roll it back with `kubectl rollout undo`.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5cdc303adb709497a119bf4eb8c692@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T151500
+DTEND;TZID=Africa/Lagos:20261021T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8bea32214fc466ae59dce623ea492b9b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T153000
+DTEND;TZID=Africa/Lagos:20261021T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d95387a2a5b6377349d175a29aa13db4@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261021T163000
+DTEND;TZID=Africa/Lagos:20261021T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:be162899caa9c55ff62e03caa07c180c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T090000
+DTEND;TZID=Africa/Lagos:20261022T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6d730eba749bb74860e0a90e5793c388@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T130000
+DTEND;TZID=Africa/Lagos:20261022T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1d4a833b514bdc1f5d67d9712c32b1e7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T140000
+DTEND;TZID=Africa/Lagos:20261022T150000
+SUMMARY:DevOps Study - Udemy (light): Secrets and Ingress (Lectures 338–3
+ 39)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n338. Secret (12min)\n339. Ingress (19min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fab089fa979a8b48fddca5f232d0dedb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T150000
+DTEND;TZID=Africa/Lagos:20261022T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Create a secret from a literal\, mount it as an env var\, and
+  expose a deployment through an Ingress.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:df00dbf948926c6c92a5f45ea74c6289@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T160000
+DTEND;TZID=Africa/Lagos:20261022T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d66446874c26351d45c2249697e4a000@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261022T163000
+DTEND;TZID=Africa/Lagos:20261022T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5ade45677d3a7e162b963b78b3778152@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T090000
+DTEND;TZID=Africa/Lagos:20261023T103000
+SUMMARY:DevOps Study - Udemy: kubectl CLI\, Helm\, Lens\, Terraform for E
+ KS (Lectures 340–343)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n340. Kubectl CLI & Cheatsheet (12min)\n341. Extras (13min)\
+ n342. Helm Introduction (6min)\n343. Helm Hands On (20min)\n344. Helm wi
+ th AI (19min)\n345. Lens (7min)\n346. Terraform For EKS Setup (25min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3a76cd5ca16b22fdd8e97b64eabf87c9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T103000
+DTEND;TZID=Africa/Lagos:20261023T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:adb2f0880abc14aca0519c89f7fa9756@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T104500
+DTEND;TZID=Africa/Lagos:20261023T121500
+SUMMARY:DevOps Study - Udemy: kubectl CLI\, Helm\, Lens\, Terraform for E
+ KS (Lectures 344–346)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n340. Kubectl CLI & 
+ Cheatsheet (12min)\n341. Extras (13min)\n342. Helm Introduction (6min)\n
+ 343. Helm Hands On (20min)\n344. Helm with AI (19min)\n345. Lens (7min)\
+ n346. Terraform For EKS Setup (25min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9a6989b9c79a21b560f42491f6a47320@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T121500
+DTEND;TZID=Africa/Lagos:20261023T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:974fa7cc809b7ea573617591adb91b5e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T131500
+DTEND;TZID=Africa/Lagos:20261023T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Package one of your deployments as a Helm chart with values.y
+ aml. Read (do not yet apply) the Terraform EKS module.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c13cc18c6be2633d5f74523467067403@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T151500
+DTEND;TZID=Africa/Lagos:20261023T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9a49f1a469633b273ef41ce849bb4e16@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T153000
+DTEND;TZID=Africa/Lagos:20261023T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c85170f164184ac643689078dc91bb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261023T163000
+DTEND;TZID=Africa/Lagos:20261023T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7f3ef91347d926700238ceba6f9e7282@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T090000
+DTEND;TZID=Africa/Lagos:20261024T110000
+SUMMARY:LAB 8: Kubernetes deployment with Helm - CAPSTONE PHASE 1 - build
+  phase
+DESCRIPTION:This lab is the first phase of your capstone. Provision an EK
+ S cluster with Terraform (or run on Minikube if you want to avoid EKS co
+ st)\, package the application as a Helm chart\, and deploy it with secre
+ ts\, persistent volumes\, services and an Ingress.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b0270bab53f84c6129652d062bb2a174@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T110000
+DTEND;TZID=Africa/Lagos:20261024T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bd32f1635315d6a63e8bebabcd2ea7bd@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T111500
+DTEND;TZID=Africa/Lagos:20261024T130000
+SUMMARY:LAB 8: Kubernetes deployment with Helm - CAPSTONE PHASE 1 - conti
+ nue
+DESCRIPTION:Keep going. Note every error message you hit.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fe57035cb04cfcad054eb89dbf010291@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T130000
+DTEND;TZID=Africa/Lagos:20261024T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8a27699869ef0d7f44d22a07669c79c7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T140000
+DTEND;TZID=Africa/Lagos:20261024T154500
+SUMMARY:LAB 8: verification & deliberate breakage
+DESCRIPTION:Verify against the acceptance criteria in the lab README\, th
+ en work the troubleshooting challenges.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6a16e534db8fecc3c622af808fe57ac0@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T154500
+DTEND;TZID=Africa/Lagos:20261024T163000
+SUMMARY:Cleanup & cost check
+DESCRIPTION:Destroy or stop every billable resource. Check the AWS Billin
+ g dashboard before you stop.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c230cc195a06b002bb79d6da36937fed@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261024T163000
+DTEND;TZID=Africa/Lagos:20261024T170000
+SUMMARY:LinkedIn - Commit + LinkedIn lab report
+DESCRIPTION:Today's post should describe what you BUILT\, with a screensh
+ ot as evidence.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:db231e0bc4ee97d9060c0996fb96f680@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261025T100000
+DTEND;TZID=Africa/Lagos:20261025T120000
+SUMMARY:Documentation - Finish\, test and troubleshoot the week's lab
+DESCRIPTION:Finish Lab 8 / capstone phase 1. Confirm the cluster comes up
+  from `terraform apply` alone. Prepare the capstone build checklist for 
+ the final week.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:af38df9ce10192fb87c1dc6e74a67a22@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261025T120000
+DTEND;TZID=Africa/Lagos:20261025T130000
+SUMMARY:Documentation - Documentation: README\, diagram\, screenshots
+DESCRIPTION:Update the lab README: objective\, architecture\, steps\, ver
+ ification\, troubleshooting\, cleanup.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:658c36ffa7d653751c8f1b695191fbe6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261025T130000
+DTEND;TZID=Africa/Lagos:20261025T140000
+SUMMARY:Lunch / rest
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fc86dd4f27423ea12db47f5b203d2ed3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261025T140000
+DTEND;TZID=Africa/Lagos:20261025T150000
+SUMMARY:Explain the week's project out loud
+DESCRIPTION:Answer all six questions aloud and record it: What did I buil
+ d? Why? How does it work? What broke? How did I troubleshoot it? What wo
+ uld I improve?
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3adb981bc50008ed55035bf746298621@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261025T150000
+DTEND;TZID=Africa/Lagos:20261025T153000
+SUMMARY:LinkedIn - Weekly reflection + LinkedIn summary post
+DESCRIPTION:One weekly post that ties the week together\, with your best 
+ evidence attached.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a595a6039d3a8a1aeec2191f6123a89d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T090000
+DTEND;TZID=Africa/Lagos:20261026T103000
+SUMMARY:DevOps Study - Udemy: vProfile on Kubernetes - secrets\, PVC\, se
+ rvices (Lectures 347–352)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n347. Introduction (5min)\n348. Architecture (7min)\n349. So
+ urce Code Overview (5min)\n350. Secret (5min)\n351. Persistent Volume fo
+ r DB [PVC] (4min)\n352. MySQL App (10min)\n353. MySQL Service (4min)\n35
+ 4. Memcache App & Service (4min)\n355. RabbitMQ App & Service (5min)\n35
+ 6. Tomcat App & Service (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:60423cdcc8bd09997e964197d72ed5f5@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T103000
+DTEND;TZID=Africa/Lagos:20261026T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:24a49ce67d47c314f3ba26b5e2fb5d3b@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T104500
+DTEND;TZID=Africa/Lagos:20261026T121500
+SUMMARY:DevOps Study - Udemy: vProfile on Kubernetes - secrets\, PVC\, se
+ rvices (Lectures 353–356)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n347. Introduction (
+ 5min)\n348. Architecture (7min)\n349. Source Code Overview (5min)\n350. 
+ Secret (5min)\n351. Persistent Volume for DB [PVC] (4min)\n352. MySQL Ap
+ p (10min)\n353. MySQL Service (4min)\n354. Memcache App & Service (4min)
+ \n355. RabbitMQ App & Service (5min)\n356. Tomcat App & Service (7min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9116b5e06369d7d1d055ddb8afee9f17@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T121500
+DTEND;TZID=Africa/Lagos:20261026T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:598dfcfa76c8f397f8580ae884cd37f3@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T131500
+DTEND;TZID=Africa/Lagos:20261026T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:Apply the full manifest set to your cluster and debug until e
+ very pod is Running. Expect failures - that is the point.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:abc05013fcccea68fd093a216661b7ec@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T151500
+DTEND;TZID=Africa/Lagos:20261026T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1a20883312333bb1515d92ac26b251fb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T153000
+DTEND;TZID=Africa/Lagos:20261026T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:695e2772fc1185046dc1127ae7ea5cfa@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261026T163000
+DTEND;TZID=Africa/Lagos:20261026T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:16248880490208d9f57a77aa804ce40d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T090000
+DTEND;TZID=Africa/Lagos:20261027T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6f66dfa28e0dad4fe4e2e7bb5e80d0c8@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T130000
+DTEND;TZID=Africa/Lagos:20261027T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6751b370baebeeec02f8b37b683c25ae@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T140000
+DTEND;TZID=Africa/Lagos:20261027T150000
+SUMMARY:DevOps Study - Udemy (light): Ingress and full cluster deployment
+  (Lectures 357–360)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n357. Ingress (6min)\n358. K8s Cluster Setup & 
+ Source Code (4min)\n359. Deploy App on K8s Cluster (12min)\n360. Summari
+ ze (4min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:678b62b1b1f9f0051126e6872528a949@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T150000
+DTEND;TZID=Africa/Lagos:20261027T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:Reach the app in a browser through the Ingress. Screenshot it
+  - this goes in the capstone README.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9d25142393b7892dd45be17081ad39f6@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T160000
+DTEND;TZID=Africa/Lagos:20261027T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:56a38b9917d7a3e77931ba3c9efd6075@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261027T163000
+DTEND;TZID=Africa/Lagos:20261027T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7a79e13afa2b8a0b83c58ff55bb345ba@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T090000
+DTEND;TZID=Africa/Lagos:20261028T103000
+SUMMARY:DevOps Study - Udemy: GitOps project: Helm charts\, CI pipeline\,
+  ECR (Lectures 361–367)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n361. Introduction (6min)\n362. Architecture (6min)\n363. Gi
+ t Repository Setup (6min)\n364. Helm Charts Part 1 (3min)\n365. Helm Cha
+ rts Part 2 (13min)\n366. CI Pipeline Overview (3min)\n367. Sonar Qube Se
+ rver (6min)\n368. ECR and IAM (6min)\n369. Github Secrets & Variables (6
+ min)\n370. CICD Pipeline part 1 (12min)\n371. CICD Pipeline part 2 (10mi
+ n)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2767aa8224337d63f44e9ba6792b781d@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T103000
+DTEND;TZID=Africa/Lagos:20261028T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:9ab9fee3d6cabc0c0a1c7e9c31b110d9@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T104500
+DTEND;TZID=Africa/Lagos:20261028T121500
+SUMMARY:DevOps Study - Udemy: GitOps project: Helm charts\, CI pipeline\,
+  ECR (Lectures 368–371)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n361. Introduction (
+ 6min)\n362. Architecture (6min)\n363. Git Repository Setup (6min)\n364. 
+ Helm Charts Part 1 (3min)\n365. Helm Charts Part 2 (13min)\n366. CI Pipe
+ line Overview (3min)\n367. Sonar Qube Server (6min)\n368. ECR and IAM (6
+ min)\n369. Github Secrets & Variables (6min)\n370. CICD Pipeline part 1 
+ (12min)\n371. CICD Pipeline part 2 (10min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3d502b43a843e96d543758cbe1764ca2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T121500
+DTEND;TZID=Africa/Lagos:20261028T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:24e73535e62331830ce527f24e40f24f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T131500
+DTEND;TZID=Africa/Lagos:20261028T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:CAPSTONE BUILD: repo structure\, Helm charts\, SonarQube\, EC
+ R + IAM\, GitHub secrets\, CI/CD pipeline parts 1 and 2.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8b6bf3953ca86ad1303355ee94fc04cf@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T151500
+DTEND;TZID=Africa/Lagos:20261028T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b9e75d59effb8141bb33134ff3f90a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T153000
+DTEND;TZID=Africa/Lagos:20261028T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:50bc587ee40a2c88d1cd643113765782@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261028T163000
+DTEND;TZID=Africa/Lagos:20261028T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d10eb89fd7cebc8b143f331f4b1e84ee@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T090000
+DTEND;TZID=Africa/Lagos:20261029T130000
+SUMMARY:Tech365 in-person DevOps class
+DESCRIPTION:Fixed commitment - no Udemy work during this block.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b307918dcb11dff5d9d10b12346e8972@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T130000
+DTEND;TZID=Africa/Lagos:20261029T140000
+SUMMARY:Lunch and reset
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:30c0eba4cf2e8c4ee8d4decbcad76d16@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T140000
+DTEND;TZID=Africa/Lagos:20261029T150000
+SUMMARY:DevOps Study - Udemy (light): EKS prereqs\, Terraform EKS\, Argo 
+ CD (Lectures 372–375)
+DESCRIPTION:Lighter load today by design. Quality of attention beats volu
+ me.\n\nToday's lectures:\n372. EKS Prereqs (5min)\n373. Terraform Code f
+ or EKS (10min)\n374. Argo CD Setup (11min)\n375. Argo App Sync (19min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c6973a8f19c57c81ea12a56b8e27a0ce@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T150000
+DTEND;TZID=Africa/Lagos:20261029T160000
+SUMMARY:Hands-on - Short practical reinforcement
+DESCRIPTION:CAPSTONE BUILD: provision EKS with Terraform\, install Argo C
+ D\, connect it to your Helm chart repo and watch it sync.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d4188a7c69d2146a3cdff840dc262054@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T160000
+DTEND;TZID=Africa/Lagos:20261029T163000
+SUMMARY:Hands-on - Catch-up: unfinished lectures from Sections 1-13
+DESCRIPTION:Reserved slot for the earlier part of the course you have not
+  finished. Work through it in order and tick it off in progress-tracker.
+ md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7cbc8faae97ee70cf07014a778cb4ef2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261029T163000
+DTEND;TZID=Africa/Lagos:20261029T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Short post is fine on Tech365 days - one thing learned\, one 
+ thing built.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d06ac9a4e6d928beb8f6e118186b1498@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T090000
+DTEND;TZID=Africa/Lagos:20261030T103000
+SUMMARY:DevOps Study - Udemy: Completing the setup\, summary\, resumes (L
+ ectures 376–377)
+DESCRIPTION:Watch actively: pause after each lecture and write one senten
+ ce in your notes about what it does and when you would use it.\n\nToday'
+ s lectures:\n376. Completing the whole Setup (10min)\n377. Summary (9min
+ )\n378. Resumes (6min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ad9091171422634672d3b22ea6db0675@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T103000
+DTEND;TZID=Africa/Lagos:20261030T104500
+SUMMARY:Break
+DESCRIPTION:Stand up\, leave the screen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:352b34aafb992425fa32ea1cc505db0c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T104500
+DTEND;TZID=Africa/Lagos:20261030T121500
+SUMMARY:DevOps Study - Udemy: Completing the setup\, summary\, resumes (L
+ ectures 378)
+DESCRIPTION:Same rule: no passive watching. If a lecture is a demo\, foll
+ ow along in your own terminal.\n\nToday's lectures:\n376. Completing the
+  whole Setup (10min)\n377. Summary (9min)\n378. Resumes (6min)
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1f92aae9f0121ea85a2e6af2789a9615@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T121500
+DTEND;TZID=Africa/Lagos:20261030T131500
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d79026238a928b09d803185628fad16a@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T131500
+DTEND;TZID=Africa/Lagos:20261030T151500
+SUMMARY:Hands-on - Hands-on practice
+DESCRIPTION:CAPSTONE BUILD: finish the end-to-end flow\, then update your
+  CV with the project while it is fresh.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e1dd414734bdf5689a9f1520bce61b56@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T151500
+DTEND;TZID=Africa/Lagos:20261030T153000
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:157446becb7dfad76d28ac34fa0b1c13@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T153000
+DTEND;TZID=Africa/Lagos:20261030T163000
+SUMMARY:Hands-on - Troubleshooting & revision
+DESCRIPTION:Break something on purpose\, then fix it. Write the symptom\,
+  the cause and the fix in docs/troubleshooting-log.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0074a66f841f3ea6bb04993f3ea5d17e@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261030T163000
+DTEND;TZID=Africa/Lagos:20261030T170000
+SUMMARY:LinkedIn - Commit to GitHub + LinkedIn report
+DESCRIPTION:Push today's work\, then publish the LinkedIn post using link
+ edin-report-template.md.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8e26c4768a511a4d5aff5cd1ed58e01c@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T090000
+DTEND;TZID=Africa/Lagos:20261031T110000
+SUMMARY:CAPSTONE: final end-to-end run
+DESCRIPTION:Destroy everything and rebuild the entire capstone from your 
+ own code and README. If it does not come up\, your documentation is not 
+ finished.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d12329e31ed8b2c8784f6f3e718ae4a2@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T110000
+DTEND;TZID=Africa/Lagos:20261031T111500
+SUMMARY:Break
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f7d7a8c5e6fb26dbb05f07e7ada41507@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T111500
+DTEND;TZID=Africa/Lagos:20261031T130000
+SUMMARY:CAPSTONE: monitoring\, screenshots\, diagram
+DESCRIPTION:Grafana dashboard live\, Argo CD sync screenshot\, architectu
+ re diagram final version.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2027f7f3739aeddce5a7da263a854f@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T130000
+DTEND;TZID=Africa/Lagos:20261031T140000
+SUMMARY:Lunch
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:95be8a569fe877a3eea89e89056a0d48@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T140000
+DTEND;TZID=Africa/Lagos:20261031T153000
+SUMMARY:Documentation - CAPSTONE: README\, demo script\, interview answer
+ s
+DESCRIPTION:Write the demo instructions so a stranger can reproduce it. A
+ nswer all six explanation questions in writing.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:169e929c7a109a979a9664d7902b55eb@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T153000
+DTEND;TZID=Africa/Lagos:20261031T163000
+SUMMARY:Final presentation - record it
+DESCRIPTION:Record a 10-15 minute walkthrough of the whole two months. Th
+ is is your portfolio centrepiece.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6452a3341b7649dd5dc5d35c70a670b7@yacoub-devops-2026
+DTSTAMP:20260828T090000Z
+DTSTART;TZID=Africa/Lagos:20261031T163000
+DTEND;TZID=Africa/Lagos:20261031T170000
+SUMMARY:LinkedIn - Final LinkedIn post + tear down all cloud resources
+DESCRIPTION:Post the capstone. Then run terraform destroy everywhere and 
+ confirm a zero-resource account.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

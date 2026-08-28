@@ -1,0 +1,6 @@
+---
+- name: Reload nginx
+  ansible.builtin.service:
+    name: nginx
+    state: reloaded
+  # Handlers run ONCE at the end of the play, and only if something notified them.

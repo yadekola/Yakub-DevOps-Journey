@@ -1,0 +1,49 @@
+# Lab 8 - application Deployment + Service.
+# Apply with: kubectl apply -f app-deployment.yaml
+# Watch with: kubectl get pods -w
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vproapp
+  labels: { app: vproapp }
+spec:
+  replicas: 2
+  selector:
+    matchLabels: { app: vproapp }
+  template:
+    metadata:
+      labels: { app: vproapp }
+    spec:
+      containers:
+        - name: vproapp
+          image: YOUR_DOCKERHUB_USER/vproapp:v1   # never :latest in anything real
+          ports:
+            - containerPort: 8080
+          env:
+            - name: DB_PASS
+              valueFrom:
+                secretKeyRef:                      # value lives in the cluster, not in Git
+                  name: app-secret
+                  key: db-pass
+          resources:                               # without limits one pod can starve the node
+            requests: { memory: "256Mi", cpu: "100m" }
+            limits:   { memory: "512Mi", cpu: "500m" }
+          readinessProbe:      # "can this pod receive traffic yet?"
+            httpGet: { path: /, port: 8080 }
+            initialDelaySeconds: 40
+            periodSeconds: 10
+          livenessProbe:       # "is this pod wedged and in need of a restart?"
+            httpGet: { path: /, port: 8080 }
+            initialDelaySeconds: 90
+            periodSeconds: 20
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vproapp
+spec:
+  type: ClusterIP
+  selector: { app: vproapp }     # this selector is how the Service finds Pods
+  ports:
+    - port: 8080
+      targetPort: 8080
