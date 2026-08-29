@@ -1,0 +1,5 @@
+---
+nginx_port: 80
+nginx_server_name: "{{ ansible_default_ipv4.address }}"
+nginx_upstream_host: "app01"
+nginx_upstream_port: 8080

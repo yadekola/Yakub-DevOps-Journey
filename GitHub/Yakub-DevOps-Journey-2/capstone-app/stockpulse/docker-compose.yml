@@ -1,0 +1,78 @@
+# StockPulse - the whole stack in one command.
+#
+#   cp .env.example .env      # then edit .env (it is gitignored)
+#   docker compose up -d --build
+#   docker compose ps         # every service should read "healthy", not just "Up"
+#   open http://localhost:8080
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}   # from .env, never hard-coded
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - db-data:/var/lib/postgresql/data        # named volume: data survives `down`
+    networks: [stockpulse]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  cache:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    networks: [stockpulse]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+      REDIS_URL: redis://cache:6379/0
+      APP_ENV: docker
+    depends_on:
+      db:
+        condition: service_healthy    # wait for READY, not merely started
+      cache:
+        condition: service_healthy
+    networks: [stockpulse]
+    # No ports published. The API is only reachable through Nginx - the same shape you
+    # will use in Kubernetes, where only the Ingress is exposed.
+
+  seed:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: ["python", "-m", "app.seed"]
+    environment:
+      DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [stockpulse]
+    restart: "no"                     # runs once and exits - this is correct, not an error
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on: [api]
+    networks: [stockpulse]
+
+volumes:
+  db-data:
+
+networks:
+  stockpulse:
+    driver: bridge

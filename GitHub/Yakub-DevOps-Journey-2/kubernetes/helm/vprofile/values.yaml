@@ -1,0 +1,23 @@
+# Change these per environment: helm install -f values-prod.yaml
+replicaCount: 2
+
+image:
+  repository: YOUR_DOCKERHUB_USER/vproapp
+  tag: "v1"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+
+ingress:
+  enabled: true
+  className: nginx
+  host: vprofile.local
+
+resources:
+  requests: { memory: "256Mi", cpu: "100m" }
+  limits:   { memory: "512Mi", cpu: "500m" }
+
+# Secret NAME only. The secret itself is created out of band. See ../../SECRETS.md
+existingSecret: app-secret

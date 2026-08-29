@@ -1,0 +1,43 @@
+---
+# Every task uses a real module, not shell. That is what makes this idempotent.
+
+- name: Install nginx
+  ansible.builtin.apt:
+    name: nginx
+    state: present
+    update_cache: true
+    cache_valid_time: 3600
+  # WHAT: installs the package if missing.
+  # WHY apt and not `shell: apt install`: apt knows whether it is already installed,
+  #      so a second run reports "ok" instead of "changed".
+
+- name: Deploy reverse proxy config
+  ansible.builtin.template:
+    src: vprofile.conf.j2
+    dest: /etc/nginx/sites-available/vprofile.conf
+    owner: root
+    group: root
+    mode: "0644"
+  notify: Reload nginx
+  # WHY template and not copy: values come from variables, so one role works for every
+  #      environment. notify only fires the handler when the file actually changed.
+
+- name: Enable the site
+  ansible.builtin.file:
+    src: /etc/nginx/sites-available/vprofile.conf
+    dest: /etc/nginx/sites-enabled/vprofile.conf
+    state: link
+  notify: Reload nginx
+
+- name: Remove the default site
+  ansible.builtin.file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+  notify: Reload nginx
+
+- name: Ensure nginx is running and enabled at boot
+  ansible.builtin.service:
+    name: nginx
+    state: started
+    enabled: true
+  # EXPECT: "ok" on the second run, not "changed".

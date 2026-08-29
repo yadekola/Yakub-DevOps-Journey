@@ -1,0 +1,22 @@
+---
+# Lab 5 entry point. Run with:
+#   ansible-playbook -i inventories/hosts.ini site.yml
+#
+# Run it TWICE. The second run must report changed=0.
+# If it does not, you used shell/command where a real module exists.
+
+- name: Configure web tier
+  hosts: web
+  become: true
+  roles:
+    - nginx
+
+- name: Install node_exporter everywhere
+  hosts: all
+  become: true
+  tasks:
+    - name: Ensure node_exporter user exists
+      ansible.builtin.user:
+        name: node_exporter
+        system: true
+        shell: /usr/sbin/nologin

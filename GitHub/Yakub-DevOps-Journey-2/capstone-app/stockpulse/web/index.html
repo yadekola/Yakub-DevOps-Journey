@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StockPulse — Inventory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>StockPulse</h1>
+  <span id="cache-badge" class="badge">—</span>
+</header>
+
+<section class="cards">
+  <div class="card"><div class="label">Items</div><div class="value" id="m-items">–</div></div>
+  <div class="card"><div class="label">Units in stock</div><div class="value" id="m-units">–</div></div>
+  <div class="card warn"><div class="label">Low stock</div><div class="value" id="m-low">–</div></div>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <h2>Inventory</h2>
+    <input id="search" placeholder="Search items…" autocomplete="off">
+  </div>
+  <table>
+    <thead><tr><th>SKU</th><th>Name</th><th>Category</th><th>Qty</th><th>Reorder at</th><th>Move stock</th></tr></thead>
+    <tbody id="rows"><tr><td colspan="6" class="muted">Loading…</td></tr></tbody>
+  </table>
+</section>
+
+<section class="panel">
+  <h2>Add an item</h2>
+  <div class="form">
+    <input id="f-sku" placeholder="SKU (e.g. BEV-004)">
+    <input id="f-name" placeholder="Name">
+    <input id="f-category" placeholder="Category" value="general">
+    <input id="f-qty" type="number" placeholder="Qty" value="0" min="0">
+    <input id="f-reorder" type="number" placeholder="Reorder at" value="5" min="0">
+    <button id="f-add">Add</button>
+  </div>
+  <div id="msg" class="msg"></div>
+</section>
+
+<footer>StockPulse — DevOps capstone application</footer>
+<script src="app.js"></script>
+</body>
+</html>

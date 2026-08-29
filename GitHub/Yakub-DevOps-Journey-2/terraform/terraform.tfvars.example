@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is gitignored.
+owner      = "yacoub"
+ami_id     = "ami-xxxxxxxxxxxxxxxxx"
+key_name   = "yaco-devops-key"
+admin_cidr = "0.0.0.0/32" # replace with: curl -s ifconfig.me
+region     = "eu-west-1"

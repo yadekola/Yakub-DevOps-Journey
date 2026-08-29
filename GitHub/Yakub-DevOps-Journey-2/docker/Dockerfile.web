@@ -1,0 +1,5 @@
+# Lab 7 - Nginx reverse proxy tier.
+FROM nginx:alpine
+RUN rm /etc/nginx/conf.d/default.conf
+COPY nginx-vproapp.conf /etc/nginx/conf.d/vproapp.conf
+EXPOSE 80

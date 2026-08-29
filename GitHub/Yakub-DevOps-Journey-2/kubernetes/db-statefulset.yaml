@@ -1,0 +1,48 @@
+# Lab 8 - MySQL with persistent storage.
+# WHY a PVC: a pod's filesystem dies with the pod. A database cannot live like that.
+# COST: each PVC provisions a real EBS volume on EKS. `kubectl delete pvc --all` when done.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: vprodb-pvc
+spec:
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests:
+      storage: 3Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vprodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels: { app: vprodb }
+  template:
+    metadata:
+      labels: { app: vprodb }
+    spec:
+      containers:
+        - name: vprodb
+          image: mysql:8.0
+          ports: [{ containerPort: 3306 }]
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef: { name: app-secret, key: db-pass }
+          volumeMounts:
+            - name: vprodb-data
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: vprodb-data
+          persistentVolumeClaim:
+            claimName: vprodb-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vprodb
+spec:
+  selector: { app: vprodb }
+  ports: [{ port: 3306, targetPort: 3306 }]

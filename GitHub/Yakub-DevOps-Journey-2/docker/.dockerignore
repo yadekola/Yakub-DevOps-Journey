@@ -1,0 +1,7 @@
+.git
+target/
+*.war
+*.md
+.env
+*.pem
+node_modules/

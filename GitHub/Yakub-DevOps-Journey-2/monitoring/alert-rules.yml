@@ -1,0 +1,41 @@
+groups:
+  - name: node-health
+    rules:
+      - alert: InstanceDown
+        expr: up == 0
+        for: 2m                     # avoids alerting on a 10-second network blip
+        labels: { severity: critical }
+        annotations:
+          summary: "{{ $labels.instance }} is down"
+          description: "Prometheus could not scrape {{ $labels.instance }} for 2 minutes."
+
+      - alert: HighCPU
+        expr: 100 - (avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100) > 80
+        for: 2m
+        labels: { severity: warning }
+        annotations:
+          summary: "CPU above 80% on {{ $labels.instance }}"
+
+      - alert: DiskAlmostFull
+        expr: (node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"}) * 100 < 15
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: "Less than 15% disk free on {{ $labels.instance }}"
+
+  - name: stockpulse-business
+    rules:
+      # A BUSINESS alert, not a server alert. Far more interesting in an interview.
+      - alert: TooManyItemsLowOnStock
+        expr: stockpulse_low_stock_items > 5
+        for: 1m
+        labels: { severity: warning }
+        annotations:
+          summary: "{{ $value }} items are at or below their reorder level"
+
+      - alert: StockPulseCacheDown
+        expr: stockpulse_cache_up == 0
+        for: 2m
+        labels: { severity: info }
+        annotations:
+          summary: "Redis cache unavailable - app is degraded but still serving"
