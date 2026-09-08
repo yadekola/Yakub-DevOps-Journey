@@ -1,0 +1,104 @@
+vagrant init ubuntu/jammy64 ----> This is to download vagrant files
+
+vagrant up -------> This is to install vagrant machicl 
+
+vagrant ssh ------> This is to entre the server
+
+How to create a foler ------> mkdir
+How do we see all the folder we create ------> ls
+To create a files -------- touch
+We want to move readme.md into devops ------> mv
+we can alsi use mv to edit a files or folders-----> mv
+If we want confirm that it is nove into devops ------> cd ------> into devops
+To remove a file --------> rm
+how to remove an empty dir -------> rmdir
+This is to remove noon empty dir --------> rm -r
+This is to create dir inside another dir---------> mldir -p
+copy---------------->cp -----> cp -r 
+This mean every things--------> *
+
+
+COMMAND LINES
+1  mkdir devops logs scripts
+
+2  ls
+
+3  touch index.html readme.md
+
+4  ls
+
+5  mv read.md devops
+
+6  mv readme.md devops
+
+7  ls
+
+8  cd devops
+
+9  ls
+
+10  mv readme.md hello.txt
+
+11  ls
+
+12  cd ..
+
+13  ls
+
+14  rm index.html
+
+15  ls
+
+16  rmdir logs devops
+
+17  rmdir logs
+
+18* re -r
+
+19  rm -r devops
+
+20  ls
+
+21  mkdir -p devops/logs/demo
+
+22  ls
+
+23  cd  devops/logs/demo
+
+24  cd
+
+25  cd  devops/logs/demo
+
+26  cd ..
+
+27  cd -
+
+28  cd 
+
+29  cp scripts devops
+
+30  cp -r scripts devops
+
+31  ls
+
+32  cd devops
+
+33  ls
+
+34  touch index.html
+
+35  ls
+
+36  cp -r scripts/* logs
+
+37  cd
+
+38  ls
+
+39  cp -r devops/* scripts
+
+40  cd scripts
+
+41  ls
+
+42  histroy
