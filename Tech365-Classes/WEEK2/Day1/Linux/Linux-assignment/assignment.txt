@@ -1,0 +1,45 @@
+Assignment. You have joined a company as a Junior DevOps Engineer. Your team is deploying an application called TechApp to a Linux server.
+
+Your responsibility is to create the required directory structure, configuration files, logs, deployment scripts, and backups using only Linux commands.
+
+Task
+Create the following structure inside your home directory:
+
+techapp/
+├── app/
+│   ├── index.html
+│   └── README.md
+├── config/
+│   ├── app.conf
+│   └── database.conf
+├── scripts/
+│   ├── deploy.sh
+│   └── backup.sh
+├── logs/
+│   ├── application.log
+│   └── error.log
+└── backup/
+
+Complete these activities:
+
+Go to your home directory.
+1. Create a directory called techapp.
+2. Enter the techapp directory.
+Create the directories app, config, scripts, logs, and backup using one command.
+3. Inside app, create:
+index.html and README.md.
+4. Inside config, create:
+app.conf and database.conf.
+5. Inside scripts, create:
+deploy.sh and backup.sh.
+6. Inside logs, create:
+application.log and error.log.
+7. Add the following text to app/index.html:
+<h1>TechApp Production Server</h1>
+8. Add the following text to config/app.conf:
+APP_NAME=TechApp
+APP_ENV=production
+APP_PORT=8080 
+9. Copy config/app.conf into the backup directory.
+10. Rename the copied file inside backup to:
+app.conf.bak
