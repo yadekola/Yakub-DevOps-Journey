@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Finance App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance">
+        <span>Your Balance</span>
+        <h1>&#8358;<span id="balance">0</span></h1>
+      </div>
+      <div class="summary">
+        <div>
+          <p>Income</p>
+          <h3 class="income">&#8358;<span id="income">0</span></h3>
+        </div>
+        <div>
+          <p>Expenses</p>
+          <h3 class="expense">&#8358;<span id="expense">0</span></h3>
+        </div>
+      </div>
+
+      <input type="text" id="desc" placeholder="Description" />
+      <input type="number" id="amount" placeholder="Amount" />
+      <div class="choice">
+        <label
+          ><input type="radio" name="type" value="income" checked />
+          Income</label
+        >
+        <label
+          ><input type="radio" name="type" value="expense" /> Expense</label
+        >
+      </div>
+      <button class="add-transaction" onclick="addTransaction()">
+        Add Transaction
+      </button>
+
+      <div class="transactions">
+        <h3>Recent Transactions</h3>
+        <ul id="transactions"></ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
