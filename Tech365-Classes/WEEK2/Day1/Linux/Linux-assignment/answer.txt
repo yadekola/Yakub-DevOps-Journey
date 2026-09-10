@@ -1,0 +1,202 @@
+vagrant@ubuntu-jammy:~$ ls
+devops  index.html  logs  script
+vagrant@ubuntu-jammy:~$ mkdir techapp
+vagrant@ubuntu-jammy:~$ cd techapp
+vagrant@ubuntu-jammy:~/techapp$ ls
+vagrant@ubuntu-jammy:~/techapp$ mkdir app config scripts logs backup
+vagrant@ubuntu-jammy:~/techapp$ ls
+app  backup  config  logs  scripts
+vagrant@ubuntu-jammy:~/techapp$ cd app/
+vagrant@ubuntu-jammy:~/techapp/app$ touch index.html README.md
+vagrant@ubuntu-jammy:~/techapp/app$ cd
+vagrant@ubuntu-jammy:~$ cd -
+/home/vagrant/techapp/app
+vagrant@ubuntu-jammy:~/techapp/app$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd config/
+vagrant@ubuntu-jammy:~/techapp/config$ touch app.conf database.conf
+vagrant@ubuntu-jammy:~/techapp/config$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd scripts/
+vagrant@ubuntu-jammy:~/techapp/scripts$ touch deploy.sh backup.sh
+vagrant@ubuntu-jammy:~/techapp/scripts$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd logs/
+vagrant@ubuntu-jammy:~/techapp/logs$ touch application.log error.log
+vagrant@ubuntu-jammy:~/techapp/logs$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd app/
+vagrant@ubuntu-jammy:~/techapp/app$ ls
+README.md  index.html
+vagrant@ubuntu-jammy:~/techapp/app$ echo <h1>TechApp Production Server</h1> > index.html 
+-bash: syntax error near unexpected token `>'
+vagrant@ubuntu-jammy:~/techapp/app$ echo <h1>TechApp Production Server</h1> < index.html 
+-bash: syntax error near unexpected token `<'
+vagrant@ubuntu-jammy:~/techapp/app$ echo "<h1>TechApp Production Server</h1>" > index.html 
+vagrant@ubuntu-jammy:~/techapp/app$ cat index.html 
+<h1>TechApp Production Server</h1>
+vagrant@ubuntu-jammy:~/techapp/app$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd config/
+vagrant@ubuntu-jammy:~/techapp/config$ echo > 
+-bash: syntax error near unexpected token `newline'
+vagrant@ubuntu-jammy:~/techapp/config$ echo <
+-bash: syntax error near unexpected token `newline'
+vagrant@ubuntu-jammy:~/techapp/config$ cat >
+-bash: syntax error near unexpected token `newline'
+vagrant@ubuntu-jammy:~/techapp/config$ ls
+app.conf  database.conf
+vagrant@ubuntu-jammy:~/techapp/config$ cat app.conf >
+-bash: syntax error near unexpected token `newline'
+vagrant@ubuntu-jammy:~/techapp/config$ cat app.conf <
+-bash: syntax error near unexpected token `newline'
+vagrant@ubuntu-jammy:~/techapp/config$ cat >> app.conf 
+APP_NAME=TechApp
+APP_ENV=production
+APP_PORT=8080vagrant@ubuntu-jammy:~/techapp/config$ cat app.conf 
+APP_NAME=TechApp
+APP_ENV=production
+APP_PORT=8080vagrant@ubuntu-jammy:~/techapp/config$ cp app.conf backup
+vagrant@ubuntu-jammy:~/techapp/config$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd backup/
+vagrant@ubuntu-jammy:~/techapp/backup$ ls
+vagrant@ubuntu-jammy:~/techapp/backup$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ ls
+app  backup  config  logs  scripts
+vagrant@ubuntu-jammy:~/techapp$ cp config/app.conf backup/
+vagrant@ubuntu-jammy:~/techapp$ ls backup/
+app.conf
+vagrant@ubuntu-jammy:~/techapp$ cd backup/
+vagrant@ubuntu-jammy:~/techapp/backup$ ls
+app.conf
+vagrant@ubuntu-jammy:~/techapp/backup$ mv app.conf app.conf.bak
+vagrant@ubuntu-jammy:~/techapp/backup$ ls
+app.conf.bak
+vagrant@ubuntu-jammy:~/techapp/backup$ cd
+vagrant@ubuntu-jammy:~$ ls
+devops  index.html  logs  script  techapp
+vagrant@ubuntu-jammy:~$ cd techapp/
+vagrant@ubuntu-jammy:~/techapp$ ls
+app  backup  config  logs  scripts
+vagrant@ubuntu-jammy:~/techapp$ cd app/
+vagrant@ubuntu-jammy:~/techapp/app$ ls
+README.md  index.html
+vagrant@ubuntu-jammy:~/techapp/app$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd backup/
+vagrant@ubuntu-jammy:~/techapp/backup$ ls
+app.conf.bak
+vagrant@ubuntu-jammy:~/techapp/backup$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd config/
+vagrant@ubuntu-jammy:~/techapp/config$ ls
+app.conf  backup  database.conf
+vagrant@ubuntu-jammy:~/techapp/config$ rmdir backup
+rmdir: failed to remove 'backup': Not a directory
+vagrant@ubuntu-jammy:~/techapp/config$ rm -r backup
+vagrant@ubuntu-jammy:~/techapp/config$ ls
+app.conf  database.conf
+vagrant@ubuntu-jammy:~/techapp/config$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd logs/
+vagrant@ubuntu-jammy:~/techapp/logs$ ls
+application.log  error.log
+vagrant@ubuntu-jammy:~/techapp/logs$ cd ..
+vagrant@ubuntu-jammy:~/techapp$ cd scripts/
+vagrant@ubuntu-jammy:~/techapp/scripts$ ls
+backup.sh  deploy.sh
+vagrant@ubuntu-jammy:~/techapp/scripts$
+
+
+ 1  ls
+    2  touch index.html
+    3  cp index.html script/
+    4  ls
+    5  cp -r script/* devops/
+    6  history
+    7  ls -la
+    8  mkdir devops logs script
+    9  ls
+   10  touch index.html readme.md
+   11  ls
+   12  mv readme.md devops/
+   13  cd devops/
+   14  mv readme.md hello.txt
+   15  ls
+   16  cd ..
+   17  ls
+   18  rm index.html 
+   19  ls
+   20  rmdir devops/
+   21  rmdir -r devops/
+   22  rmdir -f devops/
+   23  ls
+   24  mkdir -p devops/logs/demo
+   25  cd devops/logs/demo/
+   26  cd
+   27  cd -
+   28  cd
+   29  cd `
+   30  pwd
+   31  ls
+   32  mkdir techapp
+   33  cd techapp
+   34  ls
+   35  mkdir app config scripts logs backup
+   36  ls
+   37  cd app/
+   38  touch index.html README.md
+   39  cd
+   40  cd -
+   41  cd ..
+   42  cd config/
+   43  touch app.conf database.conf
+   44  cd ..
+   45  cd scripts/
+   46  touch deploy.sh backup.sh
+   47  cd ..
+   48  cd logs/
+   49  touch application.log error.log
+   50  cd ..
+   51  cd app/
+   52  ls
+   53  echo <h1>TechApp Production Server</h1> > index.html 
+   54  echo <h1>TechApp Production Server</h1> < index.html 
+   55  echo "<h1>TechApp Production Server</h1>" > index.html 
+   56  cat index.html 
+   57  cd ..
+   58  cd config/
+   59  echo > 
+   60  echo <
+   61  cat >
+   62  ls
+   63  cat app.conf >
+   64  cat app.conf <
+   65  cat >> app.conf 
+   66  cat app.conf 
+   67  cp app.conf backup
+   68  cd ..
+   69  cd backup/
+   70  ls
+   71  cd ..
+   72  ls
+   73  cp config/app.conf backup/
+   74  ls backup/
+   75  cd backup/
+   76  ls
+   77  mv app.conf app.conf.bak
+   78  ls
+   79  cd
+   80  ls
+   81  cd techapp/
+   82  ls
+   83  cd app/
+   84  ls
+   85  cd ..
+   86  cd backup/
+   87  ls
+   88  cd ..
+   89  cd config/
+   90  ls
+   91  rmdir backup
+   92  rm -r backup
+   93  ls
+   94  cd ..
+   95  cd logs/
+   96  ls
+   97  cd ..
+   98  cd scripts/
+   99  ls
+  100  history

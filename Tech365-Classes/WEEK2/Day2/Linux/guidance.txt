@@ -1,0 +1,281 @@
+2026-09-05 08:00:01 INFO Server started successfully
+2026-09-05 08:02:15 INFO User wale logged in
+2026-09-05 08:05:23 WARNING Disk usage is above 70%
+2026-09-05 08:07:44 ERROR Database connection failed
+2026-09-05 08:08:10 INFO Retrying database connection
+2026-09-05 08:08:15 INFO Database connection successful
+2026-09-05 08:12:31 INFO User john logged in
+2026-09-05 08:15:42 ERROR Payment service unavailable
+2026-09-05 08:17:03 WARNING Memory usage is high
+2026-09-05 08:20:18 INFO User mary logged in
+2026-09-05 08:25:11 ERROR Failed login attempt for user admin
+2026-09-05 08:26:07 ERROR Failed login attempt for user admin
+2026-09-05 08:27:55 INFO User admin logged in
+2026-09-05 08:30:20 WARNING CPU usage reached 85%
+2026-09-05 08:35:14 INFO Backup started
+2026-09-05 08:40:32 INFO Backup completed successfully
+2026-09-05 08:45:09 ERROR Unable to connect to email service
+2026-09-05 08:50:21 INFO Email service restored
+2026-09-05 08:55:43 DEBUG Checking application health
+2026-09-05 09:00:00 INFO Server running normally
+
+Text Editor
+
+nano is 
+
+ctrl + x
+y for yes 
+entre
+
+head is to show you the first 10 line
+tail is to show to last 10 line 
+less is to show the next page
+find is to find the 
+. mean is in the current dir
+#
+
+
+vi
+vim this is to write in a files and edit it
+command line in vim or vi
+
+i to insrat made
+:wq 
+
+sudo su
+
+Linux Command Lines
+
+adduser (The Users name) -----> This 
+useradd (The Users name) 
+cat /etc/passwd
+su (The name of the username)
+
+useradd -m 
+To give a user the same permission that vagrant is doing
+sudo usermod -aG vagrant wale
+
+id (With the username) -----> This is to show the groud the user belong to
+passwd (With the username)-------> This is to change the password of a user 
+ls -l
+
+r -----> read -----> 4
+w -----> write ----> 2
+x -----> Execute ---> 1
+
+In real world 
+755  directory
+644  file
+
+chown  wale log.txt
+chgrp
+
+nginx web browers
+ is a service that help user to have access to the website from the browers to 
+sudo apt install nginx -y
+ 
+Service management is the process of monitoring, checking, and managing the services running on a server. In Linux, the systemctl command is commonly used to view the status of services, start or stop services, restart them, and manage their operation on the server.
+systemct 
+
+sudo apt install git -y
+
+Linux is a connection od drives 
+
+
+1  sudo groupadd devops
+    2  getent group devops
+    3  sudo groupdel devops
+    4  getent group devops
+    5  sudo gpasswd -d wale vagrant
+    6  id wale
+    7  cat tail all user
+    8  cat tail /etc/passwd
+    9  cat head /etc/paaswd
+   10  cat /etc/passwd | tail
+   11  ls
+   12  whoami
+   13  cd
+   14  ls
+   15  ls -l
+   16  chown wale log txt
+   17  sudo chown wale log txt
+   18  sudo chown wale log.txt
+   19  ls -l
+   20  sudo apt update
+   21  sudo apt upgrade
+   22  sudo install nginx -y
+   23  sudo install nginx
+   24  sudo apt install nginx
+   25  systemctl status nginx
+   26  ip addr
+   27  exit
+   28  ls
+   29  cd
+   30  su managers
+   31  exit
+   32  usermod -aG vagrant wale
+   33  sudo usermod -aG vagrant wale
+   34  id vagrant
+   35  id wale
+   36  passwd mary
+   37  ls
+   38  usermod -d /new/home mary
+   39  sudo usermod -d /new/home mary
+   40  ls
+   41  sudo usermod -d /new/home maryy
+   42  sudo usermod -d /home/mary maryy
+   43  sudo usermod -d /home/mary mary
+   44  ls
+   45  useradd -m mary
+   46  useradd -m managers
+   47  Sudo useradd -m managers
+   48  sudo useradd -m managers
+   49  ls
+   50  passwd managers
+   51  sudo passwd managers
+   52  whoami
+   53  su managers
+   54  exit
+   55  clear
+   56  sudo su
+   57  exit
+   58  ip addr
+   59  exit
+   60  nslookup youtebu.com
+   61  dig youtebu.com
+   62  host youtebu.com
+   63  host youtube.com
+   64  crul 192.168.33.10
+
+
+
+
+   nt@ubuntu-jammy:~$ history
+    1  mkdir devops logs scripts
+    2  ls
+    3  touch index.html readme.md
+    4  ls
+    5  mv read.md devops
+    6  mv readme.md devops
+    7  ls
+    8  cd devops
+    9  ls
+   10  mv readme.md hello.txt
+   11  ls
+   12  cd ..
+   13  ls
+   14  rm index.html
+   15  ls
+   16  rmdir logs devops
+   17  rmdir logs
+   18  re -r
+   19  rm -r devops
+   20  ls
+   21  mkdir -p devops/logs/demo
+   22  ls
+   23  cd  devops/logs/demo
+   24  cd
+   25  cd  devops/logs/demo
+   26  cd ..
+   27  cd -
+   28  cd 
+   29  cp scripts devops
+   30  cp -r scripts devops
+   31  ls
+   32  cd devops
+   33  ls
+   34  touch index.html
+   35  ls
+   36  cp -r scripts/* logs
+   37  cd
+   38  ls
+   39  cp -r devops/* scripts
+   40  cd scripts
+   41  ls
+   42  histroy
+   43  history
+   44  vagrant halt
+   45  cd
+   46  vagrant halt
+   47  stop
+   48  cd
+   49  sudo usermod -aG vagrant bede
+   50  id vagrant
+   51  id bede
+   52  sudo usermod -aG ubuntu  bede
+   53  id bede
+   54  sudo passwd bede
+   55  cat /etc/passwd
+   56  sudo usermod -l neche bede
+   57  sudo usermod -l neche mary
+   58  cat /etc/passwd
+   59  sudo -d /home/nech nech
+   60  sudo -d /home/nech neche
+   61  sudo usermod -d /home/neche neche
+   62  cat /etc/passwd
+   63  whoami
+   64  w
+   65  sudo groupadd devteam
+   66  ls
+   67  ls -l
+   68  cat /etc/passwd
+   69  ls
+   70  getent group devteam
+   71  sudo gpasswd -d bede ubuntu
+   72  id bede
+   73  cat /etc/group
+   74  ls -l
+   75  sudo chmod u+rwx README.md
+   76  sudo chmod g+r-x README.md
+   77  sudo chmod o-rwx README.md
+   78  ls -l
+   79  sudo chmod g-w README.md
+   80  sudo chmod g+r README.md
+   81  ls -l
+   82  sudo chmod g+r-w README.md
+   83  ls -l
+   84  sudo chmod 750  log.txt
+   85  ls -l
+   86  sudo chmod 750  README.md 
+   87  ls -l
+   88  sudo chown bede  log.txt
+   89  ls -l
+   90  sudo chgrp bede log.txt
+   91  ls -l
+   92  sudo apt update
+   93  sudo apt install nginx
+   94  sudo systemctl status nagix
+   95  sudo systemctl status nginx
+   96  eixt
+   97  exist
+   98  exit
+   99  nano log.txt
+  100  cat log.txt 
+  101  head log.txt 
+  102  tail log.txt
+  103  less log.txt
+  104  ls
+  105  find . -name "*.txt"
+  106  vim README.md
+  107  ls
+  108  cat README.md 
+  109  vim README.md
+  110  nano README.md 
+  111  sudo su
+  112  exit
+  113  ip addr
+  114  exit
+  115  ip addr
+  116  sudo apt install git 
+  117  git clone https://github.com/waleolajumoke/finance-app.git
+  118  ls
+  119  sudo cp -r finance-app/* /var/www/html/
+  120  ss -tulnp
+  121  ping google.com
+  122  nslookup google.com
+  123  dig google.com
+  124  tracerroute google.com
+  125  traceroute google.com
+  126  host google.com
+  127  curl 192.168.33.10
+  128  history
