@@ -41,7 +41,7 @@ Draw your own version of this diagram before you start building. Save it to
    `backend-sg` (3306/11211/5672 from app-sg only, and from itself).
    *Why first:* if you create instances first you will end up opening 0.0.0.0/0 "temporarily"
    and never close it. Chained groups are the whole point of this lab.
-
+   
 2. **Launch the three backend instances** (MySQL, Memcached, RabbitMQ) in a private subnet,
    `t2.micro`, using `backend-sg`.
 

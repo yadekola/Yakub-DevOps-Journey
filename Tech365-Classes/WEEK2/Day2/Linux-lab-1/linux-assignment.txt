@@ -1,0 +1,68 @@
+https://github.com/waleolajumoke/finance-app.git
+
+Assignment
+
+You have just joined a company as a Junior DevOps Engineer.
+A development team has deployed a web application called Tech365 Portal to a Linux server.
+
+The application is having several problems:
+- Developers need controlled access to the server.
+- Application directories have not been created properly.
+- File permissions need to be configured.
+- The application generates logs.
+- A process may consume excessive resources.
+- The application needs to run as a service.
+- The server must be checked for networking and storage problems.
+- You need basic monitoring and automation.
+
+Your job is to prepare and troubleshoot the server.
+
+1. Server investigation. find the following
+Current logged-in user
+Hostname
+Current working directory
+IP addresses
+Currently running processes
+Listening TCP/UDP ports
+
+Record the commands you used.
+
+2. Create the following:
+
+Group: developers
+
+Users:
+john
+mary
+
+Both users must belong to the developers group.
+Then verify their group memberships.
+
+3. Create these file
+tech365/app.conf 
+
+Configure /opt/tech365 so that the files are owned by:
+User: john
+Group: developers
+
+Set app.conf so that:
+Owner: read + write
+Group: read
+Others: no access
+
+You should determine the correct numeric permission yourself.
+Verify your changes.
+
+4. Log investigation
+
+copy the log content i gave you into /opt/tech365/logs/application.log
+use Linux text-processing commands to:
+
+Display the entire log
+Display only ERROR messages
+Display ERROR and FAILED messages
+Count ERROR messages
+Display the last 5 log entries
+Display the first 5 entries
+
+5. Deploy this website on nginx https://github.com/waleolajumoke/car-rentals
