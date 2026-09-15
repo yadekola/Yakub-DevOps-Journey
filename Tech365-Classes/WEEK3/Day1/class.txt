@@ -1,0 +1,41 @@
+sudo apt install tree -y
+tree
+export NAME="Wale"
+printenv
+unset
+echo $the varilbe
+ 
+> outputy
+< input
+
+
+ps aux | awk '{print $1 $3 $4}
+ps aux | awk '{print $1 $3 $4} > log.txt
+cat log.txt
+
+grep Hello | awk '{print $4}' log.txt
+
+cat -d "_" -f 1 log.txt
+cat -d "_" -f 2 log.txt
+cat -d "_" -f 1,2 log.txt
+
+sort num.txt
+sort -r num.txt
+
+uniq log.txt
+
+sort data.txt | uniq
+
+tar -cvf backup.tar finance-app
+rm -r finance-app
+tar -cvd backup.tar
+
+lsblk -f
+df -h
+
+du -ah / | sort -hr | head -n 10
+
+sudo cat /var/log/
+
+free -head
+uptime
