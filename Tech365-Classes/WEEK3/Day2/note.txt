@@ -1,0 +1,26 @@
+After copy the deploy.sh in to the server with vim script.sh 
+And give the file permission to run the file
+and run this command ./script.sh
+
+-f mean file
+-r mean if the file have the permissipn to the read the file
+
+
+git 
+github
+
+
+echo "Weclome to Tech365" > index,html
+cat > readme.txt  ----> ctrl d to comke out of it
+
+If we ARE WORK WITH A NEW PROJECT GIT INIT IS TO Initialized empty Git repository
+git init 
+
+configure
+git config --global user.name"yadekola"
+git config --global user.email"yakubadekolaojo059@gmail.com"
+git status
+
+. mean all the file in the current location
+git add .
+git commit -m "added index.html
