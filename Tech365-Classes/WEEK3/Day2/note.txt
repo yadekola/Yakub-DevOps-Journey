@@ -24,3 +24,11 @@ git status
 . mean all the file in the current location
 git add .
 git commit -m "added index.html
+git push 
+
+git log 
+git log --oneline
+git diff index.html
+git branch
+git branch developers
+git branch sw

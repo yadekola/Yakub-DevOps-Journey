@@ -1,0 +1,43 @@
+ls
+  474  touch .evn
+  475  rm .evn
+  476  vim .env
+  477  touch .gitignore
+  478  vim .gitignore 
+  479  git status
+  480  git add .
+  481  git pull
+  482  git push
+  483  git add .
+  484  git commit -m "add .gitignore"
+  485  git push
+  486  git swich developers
+  487  git switch developers
+  488  git pull
+  489  git switch yakbranch
+  490  git status
+  491  git restore yakub.txt 
+  492  git add .
+  493  git status
+  494  git restore --stage yakub.txt 
+  495  git status
+  496  git restore yakub.txt 
+  497  git add .
+  498  git commit - "edit yakub file"
+  499  git commit -m "edit yakub file"
+  500  git status
+  501  git reset --soft HEAD~1
+  502  git status
+  503  git restore --stage yakub.txt 
+  504  git restore yakub.txt 
+  505  git status
+  506  git add .
+  507  git commit -m "edit yakub file"
+  508  git add .
+  509  git commit -m "edit yakub file"
+  510  git reset --hard HEAD~1
+  511  git log --oneline
+  512  git revert 65492ae
+  513  git add .
+  514  git commit -m "delete yakub file"
+  515  git push
