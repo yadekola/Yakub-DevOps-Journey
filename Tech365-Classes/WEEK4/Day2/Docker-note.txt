@@ -1,0 +1,64 @@
+To run a container with this command idenyify your port number with : with the port number of our so
+docker run -p 777:80 nginx -----> this not a good way to run a container
+
+docker run -d -p 546:80 nginx
+
+-d mean deterh mode
+-p mean port number
+
+nginx is coming from docker images
+
+docker ps ------> is to see the running container
+
+docker ps -a ------> This to see all unrunning container and running container
+
+docker inspect (With the name of the container or The ID of the container) -----> This is to show all the information of container.
+
+docker log (With the name of the container or The ID of the container) -----> This is to show all the information of the log in the container.
+Showing the active of the container.
+
+docker run -d --name web -p 123:80 nginx ------> This is to create a container container name 
+
+docker stop web ----> This is to stop container for running.
+
+docker start web ----> This is to start container.
+
+docker rm (With the name of the container or The ID of the container) -----> To remove the container.
+
+docker exec -it web bash
+exec ----> mean to be able to run the container.
+-it ----> mean to bee intre-ract with
+
+apt update
+apt install git
+git clone https://github.com/yadekola/Yakub-DevOps-Journey/tree/main/Tech365-Classes/WEEK2/Day2/finance-app
+
+nginx dirce path 
+
+cp -r finance-app/* /usr/share/nginx/html
+
+docker pull tech365/mymoviepulse:v1
+docker run -d -p 4395:5173 --name movie-app tech365/mymoviepulse:v1
+docker run -d -p 4395:5173 --name movie-app tech365/mymoviepulse:v1
+
+docker tag tech365/mymoviepulse:v1 yacks/mymoviepulse:v1
+
+docker images
+
+docker rmi httpd:latest
+
+https://github.com/waleolajumoke/nodejsapplication.git
+
+docker build -t  yacks/nodejsapplication:v1.0.0 .
+
+docker run -d --name nodedemo -p 6216:3000 yacks/nodejsapplication:v1.0.0
+
+docker push (Image name)
+docker push  yacks/nodejsapplication:v1.0.0
+
+
+https://github.com/waleolajumoke/djangotest.git
+
+docker build -t  yacks/pyhon:v1.0.0 .
+
+docker run -d --name pyhondjs -p 4215:8000 yacks/pyhon:v1.0.0
