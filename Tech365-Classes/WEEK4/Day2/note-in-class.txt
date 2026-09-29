@@ -1,0 +1,19 @@
+a. javascript
+
+1. install nodejs
+npm for package management
+2. package.json keeps packages
+3. npm install (restore the node_modules)
+4. port 3000
+5. index.js
+
+b. Django/flask
+
+1. install python
+pip for package management
+2. requirments.txt keeps packages
+3. pip install (restore the dependencies)
+4. port 8000
+5. python manage.py runserver 0.0.0.0:8000
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git

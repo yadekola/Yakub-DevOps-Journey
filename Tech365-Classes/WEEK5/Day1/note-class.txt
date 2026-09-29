@@ -1,0 +1,60 @@
+Here is today note no Doker containeralazation
+Spring initializr boot
+install openjdk
+po
+java -jar 
+
+we clone this git repo
+https://github.com/waleolajumoke/demo-java
+
+docker build -t yacks/demo-java:v1.0.0 .
+
+docker run -d -p 5433:8080 --name couserapp yacks/demo-java:v1.0.0 
+
+docker push yacks/demo-java:v1.0.0
+
+
+
+
+dotnet webapi --name Tech365Api
+
+dotnet restore Tech365Api.csproj
+dotnet publish Tech365Api.csproj
+
+cd into publish
+dotnet Tech365Api.dll
+
+docker build -t yacks/demo-dotnet:v1.0.0 .
+
+docker run -d -p 3215:8080 --name forcast yacks/demo-dotnet:v1.0.0
+
+docker push yacks/demo-dotnet:v1.0.0
+
+docker volume ls
+docker volume create tech365-backup
+
+docker volume create application-backup
+
+To know how to use the volume:
+- docker volume create application-backup creates a persistent storage volume.
+- -v application-backup:/usr/share/nginx/html mounts that volume into the Nginx container at the folder where Nginx serves web files.
+- -p 5052:80 maps port 5052 on the host to port 80 inside the container.
+- --name nginx-application gives the container a name.
+- nginx is the image used to run the web server.
+
+Note: the correct Nginx folder path is /usr/share/nginx/html (not /usr/share/nginx.html).
+
+docker run -d -p 5052:80 --name nginx-application -v application-backup:/usr/share/nginx/html nginx
+
+docker run -d --name nginx-app -p 5050:80 -v mybackup:/usr/share/nginx/html nginx
+
+docker exec -it nginx-app bash
+
+
+docker run -d --name web \
+  -v application-backup:/usr/share/nginx/html \
+  nginx
+
+docker run -d --name web\
+  -v application-backup:/usr/share/nginx/html \
+> nginx
