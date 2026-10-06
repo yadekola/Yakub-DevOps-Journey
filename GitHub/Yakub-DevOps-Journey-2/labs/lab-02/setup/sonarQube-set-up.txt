@@ -1,0 +1,85 @@
+This is the automated 
+ 
+ sudo apt update
+   25  clear
+   26  sudo apt install -y postgresql-common
+   27  clear
+   28  ls -l /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+   29  cd /usr
+   30  ls
+   31  cd share/
+   32  ls
+   33  cd postgresql-common/
+   34  ls
+   35  cd pgdg/
+   36  ls
+   37  cat apt.postgresql.org.sh
+   38  ls apt.postgresql.org.sh
+   39  clear
+   40  cd
+   41  clear
+   42  sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
+   43  apt-cache policy postgresql
+sudo apt install postgresql-18 -y
+sudo systemctl status postgresql
+pg_lsclusters
+sudo -u postgres psql
+SELECT current_database();
+SELECT current_user;
+CREATE USER sonar WITH ENCRYPTED PASSWORD 'admin123';
+CREATE DATABASE sonarqube OWNER sonar;
+\du
+\l
+\c sonarqube
+\q
+psql -U sonar -d sonarqube -h localhost
+SELECT current_database();
+SELECT current_user;
+\q
+
+
+SonarQube installation.
+
+sudo apt install fontconfig openjdk-21-jdk -y
+java -version
+
+#Java executable the system
+which java
+readlink -f $(which java)
+echo $JAVA_HOME
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+echo $JAVA_HOME
+$JAVA_HOME/bin/java -version
+free -h
+df -h /
+ulimit -n
+nproc
+ulimit -u
+ls -ld /tmp
+
+lsblk
+
+What does -f mean?
+
+lsblk:
+
+List block devices.
+
+-f:
+
+Show filesystem information.
+
+So we're essentially saying:
+
+"Show me the disks and partitions, and tell me what filesystem each one uses."
+
+
+lsblk -o NAME,SERIAL,SIZE,TYPE,MOUNTPOINTS
+
+Let's understand it before you run it.
+
+-o
+
+Means:
+
+Choose the columns we want to display.

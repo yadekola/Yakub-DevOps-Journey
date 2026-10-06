@@ -1,0 +1,12 @@
+docker compose up -d
+
+docker compose exec backend python manage.py makemigrations todo
+
+docker compose exec backend python manage.py migrate
+
+http://localhost:8000/api/tasks/ -----> url for the database
+http://localhost:5173/   ----------> url for the front end
+
+docker build -t yacks/backend-django:v1.0.0 backend
+
+docker build -t yacks/frontend-react:v1.0.0 frontend
