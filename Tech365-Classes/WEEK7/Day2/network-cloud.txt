@@ -1,0 +1,81 @@
+NETWORK IN CLOUD
+
+VPC -- Virtual Private CLOUD
+subnet
+IP Addressing
+
+Network Access Control Lists NACL
+Security Groud
+
+Calculated 
+CLassless inter-domain routing CIDR
+
+database path 
+
+
+
+Your notes cover the main building blocks of cloud networking. Here’s a beginner-friendly way to think about them.
+
+## The basic idea
+
+A **network** connects computers so they can send information to each other. In the cloud, networking lets your virtual servers, databases, and other services communicate—with each other and, when allowed, with the internet.
+
+Imagine a cloud network as a **private neighborhood**:
+
+- The **VPC** is the neighborhood boundary.
+- **Subnets** are smaller sections within the neighborhood.
+- **IP addresses** are the addresses of individual houses.
+- **Security rules** are the gates and guards deciding who can enter or leave.
+
+## Your notes, explained
+
+### VPC: Virtual Private Cloud
+
+A **VPC** is a logically isolated network you create inside a cloud provider, such as AWS. You choose its IP address range and control how resources in it can communicate.
+
+Think of it as your own private network space in a much larger cloud.
+
+### Subnet
+
+A **subnet** is a smaller network inside a VPC. You can place different resources in different subnets—for example, a public-facing web server in one and a private database in another.
+
+“Public” and “private” depend on the subnet’s routes and access rules, not just its name.
+
+### IP addressing
+
+An **IP address** identifies a device or service on a network, much like a street address identifies a building.
+
+For example, a VPC might use addresses in the range `10.0.0.0/16`, with subnets using smaller ranges such as `10.0.1.0/24` and `10.0.2.0/24`. The `/16` and `/24` describe how large each address range is.
+
+### Network ACL (NACL)
+
+A **Network Access Control List** is a set of rules that controls traffic entering or leaving a subnet. In AWS, NACLs are **stateless**: if you allow a request in, you may also need a separate rule to allow its response out.
+
+### Security group
+
+Your note says “Security Groud”; the term is **security group**. It acts like a firewall for a resource, such as a virtual machine. In AWS, security groups are **stateful**: when allowed traffic starts a connection, its response traffic is automatically allowed back.
+
+A useful beginner distinction:
+
+- **NACL:** applies at the subnet level.
+- **Security group:** applies to resources such as virtual machines.
+
+## A simple example
+
+Suppose you build a website with a web server and a database:
+
+1. The VPC gives your application its private network space.
+2. The web server and database go into subnets.
+3. The web server gets an IP address.
+4. A security group allows visitors to reach the web server on web traffic, such as HTTPS.
+5. The database’s security group allows database traffic only from the web server—not from everyone on the internet.
+
+That last point is a common safety pattern: **let users reach the web server, and let the web server reach the database.**
+
+## A request’s journey
+
+When someone opens your website, the connection generally follows a path like:
+
+**User → internet entry point → route through the VPC → subnet → web server**
+
+Cloud networking is largely about deciding **where traffic can travel** and **which traffic is allowed**. Start by learning VPCs, subnets, IP addresses, routes, and security groups; then add NACLs and other networking services.

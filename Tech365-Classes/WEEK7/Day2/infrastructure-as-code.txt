@@ -1,0 +1,165 @@
+TERRAFORM AND INFRASTRUCTURE AS CODE: A BEGINNER'S GUIDE
+========================================================
+
+1. What is infrastructure?
+--------------------------
+Infrastructure is the collection of computing resources an application needs.
+Examples include virtual networks, servers, databases, storage, and firewalls.
+
+Infrastructure as Code (IaC) means describing those resources in files instead
+of creating each one by hand in a cloud website. The files can be reviewed,
+stored in version control such as Git, and reused to build a similar setup.
+
+Terraform is an IaC tool. You describe the result you want, and Terraform works
+with a provider (such as AWS) to create or update the resources.
+
+2. The main Terraform ideas
+---------------------------
+Provider: The plugin Terraform uses to communicate with a platform. This
+project uses the AWS provider.
+
+Resource: One thing Terraform manages, such as an AWS VPC or subnet.
+
+Configuration: The .tf files that describe the desired setup. Terraform uses
+the HashiCorp Configuration Language (HCL).
+
+Plan: A preview of what Terraform expects to create, change, or delete.
+
+State: Terraform's record of the resources it manages and their real-world
+identifiers. State helps Terraform compare your configuration with AWS. Treat
+state files as important project data; they can contain sensitive details.
+
+3. How the files in this project fit together
+---------------------------------------------
+The terraform-class/main.tf file selects the AWS provider and describes:
+
+- An AWS VPC with address range 10.0.0.0/16.
+- An AWS subnet inside that VPC with address range 10.0.1.0/24.
+
+The subnet refers to aws_vpc.TECH365.id. This reference tells Terraform that
+the subnet depends on the VPC, so Terraform creates the VPC first. AWS assigns
+the VPC an ID when it is created.
+
+The provider block in this example does not specify a region or credentials.
+Terraform must get AWS access and a region from your local AWS configuration,
+environment, or another supported source before it can manage AWS resources.
+
+4. The usual Terraform workflow
+-------------------------------
+Open a terminal in the folder containing the Terraform configuration, for
+example terraform-class, then use these commands:
+
+terraform init
+Prepares the folder and installs the providers required by the configuration.
+Usually needed when you first set up the folder or change its providers.
+
+terraform fmt
+Formats Terraform files consistently. It changes formatting, not the intended
+infrastructure.
+
+terraform validate
+Checks that the configuration is structurally valid. It does not prove that
+AWS credentials work or that AWS will accept every requested change.
+
+terraform plan
+Shows the changes Terraform proposes. Read the plan before applying it.
+
+terraform apply
+Shows a plan and asks for confirmation before making the changes. Review what
+will be created, changed, or deleted before approving.
+
+terraform destroy
+Proposes removing the resources tracked by this configuration and asks for
+confirmation. This can delete real infrastructure. Avoid --auto-approve while
+learning because it skips the confirmation prompt.
+
+5. Understanding the network ranges in main.tf
+----------------------------------------------
+CIDR is a way to write an IP address range. The number after the slash tells
+how much of the range is fixed. A smaller number means a larger range:
+
+10.0.0.0/16 is the larger VPC range in this example.
+10.0.1.0/24 is a smaller range reserved for the subnet.
+
+The subnet range must fit inside the VPC range, and subnet ranges in the same
+VPC must not overlap. Your network-cloud.txt file explains VPCs, subnets,
+security groups, and network ACLs in more detail.
+
+6. Why teams use Terraform
+--------------------------
+Consistency: The same configuration can be applied again to create a similar
+environment.
+
+Review: Teammates can read and discuss infrastructure changes before applying
+them.
+
+Version history: Git can show who changed the configuration and when.
+
+Automation: Terraform commands can be run as part of an approved deployment
+process.
+
+Important: Terraform is not magic and it does not make every change risk-free.
+Check plans, protect state, and make sure the AWS account and region are the
+ones you intend to use.
+
+7. A simple way to remember it
+------------------------------
+Write the desired infrastructure in .tf files, initialize Terraform, preview
+the changes with plan, and apply only after reviewing the plan. Terraform uses
+state to keep track of what it manages.
+
+
+
+
+## Terraform in simple terms
+
+Terraform lets you describe the cloud infrastructure you want in configuration files. It then compares that description with what exists and works out what to create, change, or remove.
+
+Think of it like giving a builder a plan:
+
+- **You write the plan** in `.tf` files.
+- **Terraform checks the plan** against the current infrastructure.
+- **You review the proposed changes** before Terraform makes them.
+
+This is called **Infrastructure as Code (IaC)**. Keeping infrastructure in code makes it easier to repeat, review, and track changes—similar to how version control tracks changes to an application.
+
+## What your `main.tf` does
+
+Your file specifies the AWS provider and describes two resources:
+
+1. `aws_vpc.TECH365` creates a VPC with the address range `10.0.0.0/16`.
+2. `aws_subnet.TECH365` creates a subnet inside that VPC, using `10.0.1.0/24`.
+
+This line connects the subnet to the VPC:
+
+```hcl
+vpc_id = aws_vpc.TECH365.id
+```
+
+Terraform recognizes that dependency and creates the VPC before the subnet. The `.id` is the ID AWS assigns to the VPC.
+
+A **provider** is Terraform’s connection to a platform such as AWS. A **resource** is something Terraform manages on that platform, such as a VPC or subnet. The provider block in your file has no options; AWS credentials and region must therefore come from another configuration source, such as your environment or AWS CLI setup.
+
+## The commands in your notes
+
+- `terraform init` prepares the folder and downloads the providers Terraform needs.
+- `terraform plan` previews what Terraform expects to change.
+- `terraform apply` applies the changes after you review them.
+- `terraform destroy` removes infrastructure managed by that Terraform configuration.
+
+Be careful with `terraform destroy --auto-approve`: it skips the confirmation prompt and can delete the resources Terraform manages. For learning, run `terraform destroy` without `--auto-approve` so you can review and confirm the action.
+
+Terraform also maintains a **state file** to track the resources it manages. Your folder contains `terraform.tfstate` and `terraform.tfstate.backup`; treat these as important project data because state can include infrastructure details and sometimes sensitive values. Avoid sharing them publicly.
+
+## Networking terms in your notes
+
+- **VPC:** your private network area in AWS.
+- **Subnet:** a smaller address range inside the VPC.
+- **IP address:** an address used to identify a resource on a network.
+- **CIDR:** a notation for an IP range. “Classless Inter-Domain Routing” is the full term. For example, `10.0.0.0/16` is a larger range than `10.0.1.0/24`.
+- **Security group:** a stateful set of traffic rules attached to resources.
+- **NACL:** a stateless set of traffic rules applied at the subnet level.
+
+Your `network-cloud.txt` already has a more detailed explanation of the networking terms, with a web server and database example. In `infrastructure-as-code.txt`, “resproducibility” should be **reproducibility**, and “security groud” in the networking notes should be **security group**. The line “Calculated” may be intended to say **CIDR** or **Classless**.
+
+The main idea to remember is: **write down the infrastructure you want, preview Terraform’s proposed changes, and apply them when they look right.**
