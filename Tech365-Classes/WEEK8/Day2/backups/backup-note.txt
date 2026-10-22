@@ -1,0 +1,106 @@
+What is infrastruction Automation?
+
+
+manual server management--------->  Automation server management ansible
+
+what is anaible?
+ansible works
+common use cases
+
+
+Installation of ansible in AWS
+
+We lunach an EC2 using the ubuntu server and lunach 3 server 
+
+ssh to one server and do these steps
+1. sudo apt update
+2. sudo apt upgrate -y
+3. sudo apt install ansible -y
+4. which ansibles -----> to know the path which ansible is installed
+5. ansible --version 
+6. dpkg -l | grep ansible
+
+scp -i server-tech365.pem server-tech365.pem ubuntu@54.172.231.88:/home/ubuntu
+server-tech365.pem
+
+ssh -i server-tech365.pem ubuntu@54.172.231.88
+
+
+
+understand ansible inventory
+
+we create two files
+1. one is called inventory inside the inventory file we add all our private IP address inside
+2. The second file is ansibles.cfg that is our config file
+        [defaults]
+        inventory = inventory
+        remote_user = ubuntu
+        private_key_file = server-tech365.pem
+        host_key_checking = False
+
+ansible server -m ping
+ansible server -m command -a "uptime"
+ansible server -m command -a "df -h"
+
+Ansibles PlayBooks
+Ansibles Variables 
+
+To copy from my server to LapTop
+
+scp -r -i .\server-tech365.pem ubuntu@54.172.231.88:/home/ubuntu/* "C:\Users\user\Desktop\Yakub-DevOps-2026\Tech365-Classes\WEEK8\"
+
+
+    1  sudo apt update -y
+    2  sudo apt upgrade -y
+    3  sudo apt install ansible -y
+    4  ansible -version
+    5  ansible --version
+    6  which ansible
+    7  dpkg -l | grep ansible
+    8  clear
+    9  ansible --version
+   10  exit
+   11  ls
+   12  pwd
+   13  chmod 400 server-tech365.pem
+   14  ls -l
+   15  vim inventory
+   16  ls -l
+   17  vim ansible.cfg
+   18  cat ansible.cfg
+   19  cat inventory
+   20  ansible server -m ping
+   21  ls
+   22  cat ansible.cfg
+   23  vim ansible.cfg
+   24  ansible server -m ping
+   25  cat ansible.cfg
+   26  ansible servers -m command -a "df -h"
+   27  ansible server -m command -a "df -h"
+   28  ansible server -m command -a "uptime"
+   29  vim nginx.yaml
+   30  ansible-playbook nginx.yaml
+   31  vim nginx.yaml
+   32  ansible-playbook nginx.yaml
+   33  vim nginx.yaml
+   34  ansible-playbook nginx.yaml
+   35  vim nginx.yaml
+   36  ansible-playbook nginx.yaml
+   37  vim nginx.yaml
+   38  vim index.html
+   39  ansible-playbook nginx.yaml
+   40  ls
+   41  vim inventory
+   42  vim nginx.yaml
+   43  ansible-playbook nginx.yaml
+   44  vim index.html
+   45  git -version
+   46  git --version
+   47  curl --version
+   48  vim nginx.yaml
+   49  ansible-playbook nginx.yaml
+   50  curl
+   51  unzip
+   52  vim nginx.yaml
+   53  ansible-playbook nginx.yaml
+

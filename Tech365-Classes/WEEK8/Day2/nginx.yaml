@@ -1,0 +1,43 @@
+---
+- name: install and start nginx
+  hosts: server
+  become: True
+
+  vars:
+    nginx_path: /var/www/html/
+
+  tasks:
+    - name: install nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: start nginx
+      service:
+       name: nginx
+       state: started
+       enabled: yes
+
+    - name: Deploy static website
+      copy: 
+        src: index.html
+        dest: "{{ nginx_path }}"
+        mode: '0644'
+
+    - name: install packages
+      apt:
+        name:
+          - curl
+          - unzip
+          - git
+          - wget
+        state: present
+
+    - name: create multiple directoreies
+      file:
+        path: "/home/ubuntu/{{ item }}"
+        state: directory
+      loop:
+        - logs
+        - configs
+        - backups
